@@ -1,62 +1,68 @@
 import Link from "next/link"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
+import { Badge } from "@/components/ui/badge"
 import { Calendar, ArrowRight } from "lucide-react"
 
-export default function BlogList() {
+export function BlogList() {
   const blogPosts = [
     {
       title: "Transitioning from Sales to Software Engineering",
       excerpt:
-        "My journey from sales to tech and the transferable skills that made the transition smoother than expected.",
+        "My journey from sales professional to software engineer and the transferable skills that made the transition successful. Learn about the challenges, opportunities, and key strategies that helped me make this career pivot.",
       date: "2024-01-15",
       slug: "transitioning-from-sales-to-engineering",
-      readTime: "5 min read",
+      tags: ["Career", "Software Engineering", "Sales"],
     },
     {
       title: "Lessons from Professional Badminton That Apply to Software Engineering",
       excerpt:
-        "How strategic thinking, discipline, and performance under pressure from professional sports translate directly to coding and software development.",
+        "How the discipline, strategy, and mental resilience from professional sports translate to building better software. Discover the unexpected parallels between athletic performance and coding excellence.",
       date: "2024-01-10",
       slug: "lessons-from-professional-badminton",
-      readTime: "7 min read",
+      tags: ["Sports", "Software Engineering", "Mindset"],
     },
     {
       title: "Building on the ServiceNow Platform: A Developer's Perspective",
       excerpt:
-        "Insights into developing applications on ServiceNow, best practices I've learned, and tips for new platform developers.",
+        "Insights into developing applications on ServiceNow, best practices, and common challenges faced by new developers. A comprehensive guide for those starting their ServiceNow development journey.",
       date: "2024-01-05",
       slug: "servicenow-platform-insights",
-      readTime: "6 min read",
+      tags: ["ServiceNow", "Development", "Platform"],
     },
   ]
 
   return (
     <div className="space-y-8">
       {blogPosts.map((post, index) => (
-        <Card key={index} className="bg-gray-800 border-gray-700 hover:bg-gray-750 transition-colors">
+        <Card key={index} className="bg-gray-800 border-gray-700 hover:border-gray-600 transition-colors">
           <CardHeader>
-            <div className="flex items-center justify-between text-sm text-gray-400 mb-2">
-              <div className="flex items-center">
-                <Calendar className="w-4 h-4 mr-2" />
-                {new Date(post.date).toLocaleDateString("en-US", {
-                  year: "numeric",
-                  month: "long",
-                  day: "numeric",
-                })}
-              </div>
-              <span>{post.readTime}</span>
+            <div className="flex items-center text-sm text-gray-400 mb-2">
+              <Calendar className="mr-2 h-4 w-4" />
+              {new Date(post.date).toLocaleDateString("en-US", {
+                year: "numeric",
+                month: "long",
+                day: "numeric",
+              })}
             </div>
-            <CardTitle className="text-2xl text-white hover:text-gray-300 transition-colors">
+            <CardTitle className="text-2xl text-white hover:text-blue-400 transition-colors">
               <Link href={`/blog/${post.slug}`}>{post.title}</Link>
             </CardTitle>
           </CardHeader>
           <CardContent>
-            <p className="text-gray-400 mb-4 leading-relaxed">{post.excerpt}</p>
+            <p className="text-gray-300 mb-4 leading-relaxed">{post.excerpt}</p>
+            <div className="flex flex-wrap gap-2 mb-4">
+              {post.tags.map((tag, tagIndex) => (
+                <Badge key={tagIndex} variant="secondary" className="bg-gray-700 text-gray-300">
+                  {tag}
+                </Badge>
+              ))}
+            </div>
             <Link
               href={`/blog/${post.slug}`}
-              className="inline-flex items-center text-white hover:text-gray-300 transition-colors font-medium"
+              className="inline-flex items-center text-blue-400 hover:text-blue-300 transition-colors"
             >
-              Read Full Article <ArrowRight className="w-4 h-4 ml-2" />
+              Read full article
+              <ArrowRight className="ml-1 h-4 w-4" />
             </Link>
           </CardContent>
         </Card>
