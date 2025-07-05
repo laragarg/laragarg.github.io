@@ -1,92 +1,65 @@
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
+import { Card, CardContent } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 
-export function Experience() {
+export default function Experience() {
+  const experiences = [
+    {
+      title: "Software Engineer",
+      company: "ServiceNow",
+      period: "2024 - Present",
+      description:
+        "Developing and maintaining applications on the ServiceNow platform, focusing on workflow automation and system integrations.",
+      skills: ["ServiceNow", "JavaScript", "REST APIs", "Workflow Automation"],
+    },
+    {
+      title: "Sales Professional",
+      company: "Previous Role",
+      period: "2023 - 2024",
+      description:
+        "Built strong client relationships and developed deep understanding of business needs and market dynamics.",
+      skills: ["Client Relations", "Business Analysis", "Market Research", "Communication"],
+    },
+    {
+      title: "Professional Badminton Player",
+      company: "Competitive Sports",
+      period: "2020 - 2023",
+      description:
+        "Competed at professional level, developing mental toughness, strategic thinking, and performance under pressure.",
+      skills: ["Strategic Thinking", "Performance Optimization", "Team Leadership", "Mental Resilience"],
+    },
+  ]
+
   return (
-    <section className="py-20 bg-gray-900">
-      <div className="container mx-auto px-4">
-        <div className="max-w-4xl mx-auto">
-          <h2 className="text-4xl font-bold text-white text-center mb-16">Experience</h2>
+    <section id="experience" className="py-20 px-4 bg-gray-800/50">
+      <div className="max-w-6xl mx-auto">
+        <h2 className="text-4xl font-bold text-center mb-16">Experience</h2>
 
-          <div className="space-y-8">
-            <Card className="bg-gray-800 border-gray-700">
-              <CardHeader>
-                <div className="flex justify-between items-start">
+        <div className="space-y-8">
+          {experiences.map((exp, index) => (
+            <Card key={index} className="bg-gray-800 border-gray-700">
+              <CardContent className="p-6">
+                <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-4">
                   <div>
-                    <CardTitle className="text-white text-xl">Software Engineer</CardTitle>
-                    <p className="text-blue-400 font-medium">ServiceNow</p>
+                    <h3 className="text-xl font-semibold">{exp.title}</h3>
+                    <p className="text-blue-400">{exp.company}</p>
                   </div>
-                  <Badge variant="secondary" className="bg-gray-700 text-gray-300">
-                    Current
+                  <Badge variant="outline" className="border-gray-600 text-gray-300 w-fit">
+                    {exp.period}
                   </Badge>
                 </div>
-              </CardHeader>
-              <CardContent>
-                <p className="text-gray-300 mb-4">
-                  Developing enterprise applications on the ServiceNow platform, focusing on workflow automation and
-                  system integrations.
-                </p>
+
+                <p className="text-gray-300 mb-4">{exp.description}</p>
+
                 <div className="flex flex-wrap gap-2">
-                  <Badge className="bg-blue-600">JavaScript</Badge>
-                  <Badge className="bg-blue-600">ServiceNow Platform</Badge>
-                  <Badge className="bg-blue-600">REST APIs</Badge>
-                  <Badge className="bg-blue-600">Workflow Design</Badge>
+                  {exp.skills.map((skill, skillIndex) => (
+                    <Badge key={skillIndex} variant="secondary" className="bg-gray-700 text-gray-300">
+                      {skill}
+                    </Badge>
+                  ))}
                 </div>
               </CardContent>
             </Card>
-
-            <Card className="bg-gray-800 border-gray-700">
-              <CardHeader>
-                <div className="flex justify-between items-start">
-                  <div>
-                    <CardTitle className="text-white text-xl">Sales Representative</CardTitle>
-                    <p className="text-green-400 font-medium">Previous Role</p>
-                  </div>
-                  <Badge variant="secondary" className="bg-gray-700 text-gray-300">
-                    1 Year
-                  </Badge>
-                </div>
-              </CardHeader>
-              <CardContent>
-                <p className="text-gray-300 mb-4">
-                  Developed client relationships and technical solution presentations, gaining valuable insights into
-                  user requirements and business processes.
-                </p>
-                <div className="flex flex-wrap gap-2">
-                  <Badge className="bg-green-600">Client Relations</Badge>
-                  <Badge className="bg-green-600">Technical Presentations</Badge>
-                  <Badge className="bg-green-600">Solution Design</Badge>
-                  <Badge className="bg-green-600">Business Analysis</Badge>
-                </div>
-              </CardContent>
-            </Card>
-
-            <Card className="bg-gray-800 border-gray-700">
-              <CardHeader>
-                <div className="flex justify-between items-start">
-                  <div>
-                    <CardTitle className="text-white text-xl">Professional Badminton Player</CardTitle>
-                    <p className="text-yellow-400 font-medium">Athletic Career</p>
-                  </div>
-                  <Badge variant="secondary" className="bg-gray-700 text-gray-300">
-                    Multiple Years
-                  </Badge>
-                </div>
-              </CardHeader>
-              <CardContent>
-                <p className="text-gray-300 mb-4">
-                  Competed at professional level, developing mental resilience, strategic thinking, and performance
-                  under pressure.
-                </p>
-                <div className="flex flex-wrap gap-2">
-                  <Badge className="bg-yellow-600">Mental Resilience</Badge>
-                  <Badge className="bg-yellow-600">Strategic Thinking</Badge>
-                  <Badge className="bg-yellow-600">Performance Optimization</Badge>
-                  <Badge className="bg-yellow-600">Team Collaboration</Badge>
-                </div>
-              </CardContent>
-            </Card>
-          </div>
+          ))}
         </div>
       </div>
     </section>
