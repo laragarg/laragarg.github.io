@@ -89,6 +89,7 @@ const blogPosts = {
   },
 }
 
+// This function tells Next.js which dynamic routes to pre-generate
 export async function generateStaticParams() {
   return [
     { slug: "transitioning-from-sales-to-engineering" },
@@ -98,9 +99,13 @@ export async function generateStaticParams() {
 }
 
 export default function BlogPostPage({ params }: { params: { slug: string } }) {
-  const post = blogPosts[params.slug as keyof typeof blogPosts]
+  const validSlugs = [
+    "transitioning-from-sales-to-engineering",
+    "lessons-from-professional-badminton",
+    "servicenow-platform-insights",
+  ]
 
-  if (!post) {
+  if (!validSlugs.includes(params.slug)) {
     notFound()
   }
 
@@ -108,7 +113,7 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
     <div className="min-h-screen bg-gray-900 text-white">
       <Header />
       <main className="pt-20">
-        <BlogPost post={post} />
+        <BlogPost slug={params.slug} />
       </main>
     </div>
   )
