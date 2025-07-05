@@ -7,6 +7,7 @@ const blogPosts = {
     title: "Transitioning from Sales to Software Engineering",
     date: "2024-01-15",
     tags: ["Career", "Software Engineering", "Sales"],
+    readTime: "8 min read",
     content: `
 # Transitioning from Sales to Software Engineering
 
@@ -14,226 +15,223 @@ Making the leap from sales to software engineering might seem like a dramatic ca
 
 ## The Decision to Switch
 
-After a year in sales, I realized that while I enjoyed the problem-solving aspect and client interactions, I was drawn to the technical solutions we were selling. I found myself spending more time understanding the technical details than necessary for my role, which was a clear sign that my interests lay elsewhere.
+After a year in sales, I realized that while I enjoyed the problem-solving aspect and working with clients, I was drawn to the technical challenges behind the solutions we were selling. The logical thinking required in sales—understanding customer pain points, crafting solutions, and communicating value—translates remarkably well to software development.
 
 ## Transferable Skills
 
 ### Communication
-Sales taught me how to explain complex concepts in simple terms - a skill that's invaluable when writing documentation, presenting technical solutions, or collaborating with non-technical stakeholders.
+In sales, you learn to explain complex concepts in simple terms. This skill is invaluable when writing documentation, presenting technical solutions, or collaborating with non-technical stakeholders.
 
 ### Problem-Solving
-Every sales conversation is essentially about identifying a problem and proposing a solution. This analytical thinking translates directly to software engineering, where we're constantly solving problems through code.
+Sales is essentially about identifying problems and proposing solutions. Software engineering follows the same pattern: understand the requirements, identify the challenges, and build solutions.
 
-### Understanding User Needs
-Sales experience gives you a unique perspective on what users actually want versus what they say they want. This insight is crucial when designing user-friendly applications.
+### Resilience
+Dealing with rejection in sales builds mental toughness that serves you well when debugging code or facing technical challenges.
 
 ## The Learning Journey
 
 The transition wasn't without challenges. I had to:
-- Learn programming fundamentals from scratch
-- Understand software architecture and design patterns
-- Develop debugging and testing skills
-- Adapt to a different work culture and pace
+- Learn programming fundamentals
+- Understand software architecture
+- Develop debugging skills
+- Adapt to a different work rhythm
 
-## Advice for Others Making the Switch
+But the sales background gave me unique advantages in understanding user needs and business requirements.
 
-1. **Start coding while still in sales** - Use your current role to understand the technical products better
-2. **Focus on fundamentals** - Don't rush to learn the latest frameworks without understanding the basics
-3. **Build projects** - Nothing beats hands-on experience
-4. **Network with developers** - The tech community is generally welcoming to career changers
-5. **Be patient** - The transition takes time, but the skills you bring from sales are valuable
+## Advice for Others
 
-The combination of technical skills and business understanding makes for a powerful skill set in today's tech landscape.
+If you're considering a similar transition:
+1. Start learning to code while still in your current role
+2. Focus on understanding business problems that software solves
+3. Leverage your communication skills—they're rare in tech
+4. Don't underestimate the value of your business experience
+
+The combination of business acumen and technical skills makes you a valuable asset to any development team.
     `,
   },
   "lessons-from-professional-badminton": {
     title: "Lessons from Professional Badminton That Apply to Software Engineering",
     date: "2024-01-10",
     tags: ["Sports", "Software Engineering", "Mindset"],
+    readTime: "6 min read",
     content: `
 # Lessons from Professional Badminton That Apply to Software Engineering
 
-Professional sports and software engineering might seem worlds apart, but the mental frameworks and disciplines I developed as a professional badminton player have been invaluable in my engineering career.
+Professional sports and software engineering might seem worlds apart, but the mental frameworks and disciplines I developed as a professional badminton player have been instrumental in my success as a software engineer.
 
 ## Strategic Thinking
 
 ### Game Planning vs. System Architecture
-In badminton, you need to analyze your opponent's strengths and weaknesses, then develop a game plan. Similarly, in software engineering, you need to understand the problem domain, user requirements, and technical constraints before architecting a solution.
+In badminton, you analyze your opponent's weaknesses and plan your strategy accordingly. Similarly, in software engineering, you analyze system requirements and design architecture that addresses specific needs and constraints.
 
 ### Adaptability
-No game plan survives contact with a skilled opponent. Similarly, no software architecture survives contact with real users unchanged. The ability to adapt your strategy mid-game translates directly to iterative development and agile methodologies.
+No game plan survives contact with a skilled opponent. Similarly, no software architecture survives contact with real users without modifications. The ability to adapt quickly while maintaining your core strategy is crucial in both domains.
 
 ## Performance Under Pressure
 
-### Handling Critical Moments
-In professional badminton, matches often come down to crucial points where mental strength matters more than technical skill. In software engineering, this translates to handling production incidents, tight deadlines, and high-stakes deployments.
-
-### Consistent Performance
-Professional athletes train to perform consistently, regardless of external conditions. In engineering, this means writing reliable code, following best practices even when under pressure, and maintaining code quality standards.
+### Debugging Under Deadlines
+The pressure of a crucial point in a tournament match is similar to debugging a critical production issue. Both require:
+- Clear thinking despite stress
+- Systematic problem-solving approach
+- Confidence in your abilities
+- Quick decision-making
 
 ## Continuous Improvement
 
-### Deliberate Practice
-In sports, you don't just play games - you break down your technique, identify weaknesses, and practice specific skills. In engineering, this means:
-- Code reviews and learning from feedback
-- Studying algorithms and design patterns
-- Practicing coding problems
-- Learning new technologies systematically
-
-### Performance Analysis
-Athletes constantly analyze their performance through video review and statistics. Engineers should similarly:
-- Review their code for improvements
-- Analyze system performance metrics
-- Learn from post-mortems and incidents
-- Track personal growth and skill development
-
-## Team Dynamics
-
-### Individual Excellence in Team Context
-Even in singles badminton, you have a team of coaches, trainers, and support staff. Success requires both individual skill and effective collaboration. Software engineering is similar - you need strong individual technical skills but must work effectively within a team.
-
-### Communication Under Stress
-In doubles badminton, clear communication with your partner is crucial, especially during intense rallies. In engineering teams, clear communication becomes even more critical during incidents or tight deadlines.
+### Practice Makes Perfect
+In badminton, daily practice and constant refinement of technique are essential. Software engineering requires the same dedication to continuous learning:
+- Staying updated with new technologies
+- Refining coding practices
+- Learning from mistakes
+- Seeking feedback
 
 ## Mental Resilience
 
-### Bouncing Back from Failures
-Losing matches is part of professional sports. Each loss is a learning opportunity, not a reason to quit. In engineering:
-- Bugs are learning opportunities
-- Failed projects teach valuable lessons
-- Code reviews help you grow
-- Mistakes are part of the learning process
+### Handling Setbacks
+Losing matches taught me that setbacks are learning opportunities. Similarly, bugs, failed deployments, and rejected code reviews are chances to improve, not personal failures.
 
-### Long-term Perspective
-Athletic careers require thinking in terms of seasons and years, not just individual matches. Engineering careers similarly require:
-- Continuous learning and skill development
-- Building a reputation over time
-- Investing in relationships and networks
-- Balancing short-term deliverables with long-term growth
+### Focus and Concentration
+The intense focus required during a match translates well to deep work sessions needed for complex programming tasks.
 
-## Conclusion
+## Team Dynamics
 
-The discipline, strategic thinking, and mental resilience developed through professional sports create a strong foundation for a successful engineering career. The key is recognizing how these skills translate and consciously applying them in your new domain.
+### Doubles Strategy
+Playing doubles badminton taught me about:
+- Clear communication under pressure
+- Trust in teammates
+- Complementary skill sets
+- Shared responsibility for outcomes
+
+These lessons directly apply to software development teams.
+
+## The Competitive Edge
+
+The competitive mindset from sports drives me to:
+- Write cleaner, more efficient code
+- Seek optimal solutions
+- Take pride in craftsmanship
+- Never settle for "good enough"
+
+Professional sports taught me that excellence is a habit, not an accident—a principle that guides my approach to software engineering every day.
     `,
   },
   "servicenow-platform-insights": {
     title: "Building on the ServiceNow Platform: A Developer's Perspective",
     date: "2024-01-05",
-    tags: ["ServiceNow", "Development", "Platform"],
+    tags: ["ServiceNow", "Development", "Enterprise"],
+    readTime: "10 min read",
     content: `
 # Building on the ServiceNow Platform: A Developer's Perspective
 
-ServiceNow has evolved from an IT service management tool to a comprehensive platform for building enterprise applications. Here are insights from my experience developing on the platform.
+ServiceNow has evolved from a simple IT service management tool to a comprehensive platform for digital workflows. As a developer working on this platform, I've gained insights into what makes ServiceNow unique and powerful for enterprise solutions.
 
-## Understanding the Platform Architecture
+## Platform Overview
 
-### Everything is a Record
-ServiceNow's fundamental concept is that everything is a record in a table. This includes:
-- Configuration items
-- Users and groups
-- Workflows and business rules
-- Even the metadata that defines the platform itself
+### What Makes ServiceNow Different
+Unlike traditional development environments, ServiceNow provides:
+- Configuration over customization
+- Built-in workflow engine
+- Integrated database and UI framework
+- Extensive out-of-the-box functionality
 
-Understanding this concept is crucial for effective ServiceNow development.
+## Development Approach
 
-### The Application Stack
-ServiceNow applications are built using:
-- **Server-side JavaScript** for business logic
-- **Client-side JavaScript** for user interface interactions
-- **Glide APIs** for platform-specific functionality
-- **REST/SOAP APIs** for integrations
-- **HTML/CSS** for custom UI components
+### Configuration First
+The platform encourages solving problems through configuration before writing custom code. This approach:
+- Reduces maintenance overhead
+- Ensures upgrade compatibility
+- Leverages platform capabilities
+- Speeds up development
 
-## Development Best Practices
+### When to Code
+Custom development is needed for:
+- Complex business logic
+- Third-party integrations
+- Advanced UI requirements
+- Performance optimization
 
-### Scoped Applications
-Always develop within scoped applications to:
-- Avoid naming conflicts
-- Ensure upgrade safety
-- Maintain clean separation of concerns
-- Enable proper version control
+## Key Technologies
+
+### Server-Side Development
+- **Business Rules**: Server-side JavaScript for data validation and manipulation
+- **Script Includes**: Reusable server-side functions
+- **Scheduled Jobs**: Automated background processing
+- **REST APIs**: Integration endpoints
+
+### Client-Side Development
+- **Client Scripts**: Form behavior and validation
+- **UI Pages**: Custom interfaces
+- **Service Portal**: Modern web experience
+- **Mobile Apps**: Native mobile development
+
+## Best Practices
+
+### Code Quality
+1. Follow ServiceNow coding standards
+2. Use proper error handling
+3. Implement logging for debugging
+4. Write reusable, modular code
 
 ### Performance Considerations
-- Use GlideRecord queries efficiently
-- Implement proper indexing strategies
-- Minimize client-server round trips
-- Cache frequently accessed data appropriately
+- Minimize database queries
+- Use GlideRecord efficiently
+- Implement proper indexing
+- Consider async processing for heavy operations
 
-### Security First
-- Follow principle of least privilege
-- Implement proper ACL (Access Control List) rules
-- Validate all user inputs
-- Use platform security features rather than custom implementations
+### Security
+- Validate all inputs
+- Use proper access controls
+- Implement secure coding practices
+- Regular security reviews
 
-## Common Challenges and Solutions
+## Integration Patterns
 
-### Challenge: Complex Business Logic
-**Problem**: Business requirements often involve complex workflows that are difficult to implement using out-of-the-box tools.
+### REST APIs
+ServiceNow's REST API capabilities enable:
+- Third-party system integration
+- Mobile app connectivity
+- Webhook implementations
+- Microservices architecture
 
-**Solution**: 
-- Break complex logic into smaller, testable components
-- Use Flow Designer for visual workflow management
-- Implement custom business rules when necessary
-- Document decision logic clearly
+### MID Server
+For secure on-premise integrations:
+- Database connections
+- File transfers
+- Network discovery
+- Legacy system integration
 
-### Challenge: Integration Complexity
-**Problem**: Enterprise environments require integration with multiple external systems.
+## Workflow Automation
 
-**Solution**:
-- Use REST Message records for external API calls
-- Implement proper error handling and retry logic
-- Use Transform Maps for data transformation
-- Consider using IntegrationHub spokes when available
+### Flow Designer
+Visual workflow builder for:
+- Approval processes
+- Data synchronization
+- Automated notifications
+- Complex business processes
 
-### Challenge: User Experience
-**Problem**: Default ServiceNow interfaces may not meet specific user experience requirements.
+## Challenges and Solutions
 
-**Solution**:
-- Use Service Portal for custom user interfaces
-- Implement responsive design principles
-- Leverage UI Builder for modern interface development
-- Conduct user testing and iterate based on feedback
+### Common Pitfalls
+1. Over-customization instead of configuration
+2. Poor performance due to inefficient queries
+3. Upgrade issues from unsupported customizations
+4. Inadequate testing procedures
 
-## Development Workflow
+### Solutions
+- Embrace platform capabilities
+- Regular performance monitoring
+- Follow upgrade best practices
+- Implement comprehensive testing
 
-### Version Control
-- Use native ServiceNow version control (Update Sets)
-- Consider external version control for complex projects
-- Implement proper branching strategies
-- Maintain clear commit messages and documentation
+## Future Outlook
 
-### Testing Strategy
-- Write automated tests using ATF (Automated Test Framework)
-- Implement unit tests for business logic
-- Perform integration testing across environments
-- Include performance testing for critical workflows
+ServiceNow continues to evolve with:
+- AI and machine learning capabilities
+- Enhanced mobile experiences
+- Improved developer tools
+- Expanded integration options
 
-### Deployment Pipeline
-- Develop in personal developer instances
-- Test in shared development environment
-- Validate in staging/test environment
-- Deploy to production with proper change management
-
-## Platform Evolution
-
-### Staying Current
-ServiceNow releases new features quarterly. To stay current:
-- Follow ServiceNow Developer Blog and documentation
-- Participate in ServiceNow Community forums
-- Attend Knowledge conferences and local meetups
-- Experiment with new features in personal developer instances
-
-### Future-Proofing Applications
-- Follow platform best practices and guidelines
-- Avoid customizing core platform functionality
-- Use supported APIs and avoid undocumented features
-- Plan for platform upgrades from the beginning
-
-## Conclusion
-
-ServiceNow development requires understanding both traditional software development principles and platform-specific concepts. Success comes from embracing the platform's strengths while working within its constraints.
-
-The key is to think in terms of configuration first, customization second, and always with an eye toward maintainability and upgrade compatibility.
+The platform's strength lies in its ability to rapidly deliver enterprise-grade solutions while maintaining flexibility for custom requirements. For developers, it offers a unique opportunity to work at the intersection of configuration and code, delivering business value quickly and efficiently.
     `,
   },
 }
@@ -246,7 +244,13 @@ export async function generateStaticParams() {
   ]
 }
 
-export default function BlogPostPage({ params }: { params: { slug: string } }) {
+interface BlogPageProps {
+  params: {
+    slug: string
+  }
+}
+
+export default function BlogPage({ params }: BlogPageProps) {
   const post = blogPosts[params.slug as keyof typeof blogPosts]
 
   if (!post) {
