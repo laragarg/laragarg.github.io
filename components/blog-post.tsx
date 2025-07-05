@@ -1,38 +1,45 @@
 import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
-import { Calendar, ArrowLeft } from "lucide-react"
+import { Calendar, Clock, ArrowLeft } from "lucide-react"
 import Link from "next/link"
 
 interface BlogPostProps {
   post: {
     title: string
     date: string
-    content: string
     tags: string[]
+    readTime: string
+    content: string
   }
 }
 
 export function BlogPost({ post }: BlogPostProps) {
   return (
-    <article className="max-w-4xl mx-auto px-4 py-12">
+    <article className="max-w-4xl mx-auto px-4 py-20">
       <Link href="/blog">
-        <Button variant="ghost" className="mb-8 p-0 h-auto text-gray-400 hover:text-white">
-          <ArrowLeft className="mr-2 h-4 w-4" />
+        <Button variant="ghost" className="mb-8 text-gray-400 hover:text-white">
+          <ArrowLeft className="w-4 h-4 mr-2" />
           Back to Blog
         </Button>
       </Link>
 
       <header className="mb-12">
-        <div className="flex items-center text-sm text-gray-400 mb-4">
-          <Calendar className="h-4 w-4 mr-2" />
-          {new Date(post.date).toLocaleDateString()}
-        </div>
+        <h1 className="text-4xl md:text-5xl font-bold mb-6">{post.title}</h1>
 
-        <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">{post.title}</h1>
+        <div className="flex flex-wrap items-center gap-4 text-gray-400 mb-6">
+          <div className="flex items-center">
+            <Calendar className="w-4 h-4 mr-2" />
+            {new Date(post.date).toLocaleDateString()}
+          </div>
+          <div className="flex items-center">
+            <Clock className="w-4 h-4 mr-2" />
+            {post.readTime}
+          </div>
+        </div>
 
         <div className="flex flex-wrap gap-2">
           {post.tags.map((tag, index) => (
-            <Badge key={index} variant="secondary" className="bg-gray-700 text-gray-300">
+            <Badge key={index} variant="secondary" className="bg-gray-700 text-gray-200">
               {tag}
             </Badge>
           ))}
@@ -53,7 +60,7 @@ export function BlogPost({ post }: BlogPostProps) {
                 } else if (line.startsWith("### ")) {
                   return `<h3 class="text-xl font-medium mt-4 mb-2 text-white">${line.substring(4)}</h3>`
                 } else if (line.startsWith("- ")) {
-                  return `<li class="ml-4 mb-1">${line.substring(2)}</li>`
+                  return `<li class="ml-4">${line.substring(2)}</li>`
                 } else if (line.trim() === "") {
                   return "<br>"
                 } else {
