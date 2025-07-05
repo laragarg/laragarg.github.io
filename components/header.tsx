@@ -1,6 +1,7 @@
 "use client"
 
 import { useState } from "react"
+import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { Menu, X } from "lucide-react"
 
@@ -11,24 +12,27 @@ export function Header() {
     <header className="fixed top-0 w-full bg-gray-900/95 backdrop-blur-sm border-b border-gray-800 z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center py-4">
-          <div className="text-2xl font-bold">
-            <span className="bg-gradient-to-r from-white to-gray-400 bg-clip-text text-transparent">LG</span>
-          </div>
+          <Link href="/" className="text-xl font-bold text-white">
+            Lara Garg
+          </Link>
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex space-x-8">
-            <a href="#about" className="text-gray-300 hover:text-white transition-colors">
+            <Link href="/" className="text-gray-300 hover:text-white transition-colors">
+              Home
+            </Link>
+            <Link href="#about" className="text-gray-300 hover:text-white transition-colors">
               About
-            </a>
-            <a href="#experience" className="text-gray-300 hover:text-white transition-colors">
+            </Link>
+            <Link href="#experience" className="text-gray-300 hover:text-white transition-colors">
               Experience
-            </a>
-            <a href="/blog" className="text-gray-300 hover:text-white transition-colors">
+            </Link>
+            <Link href="/blog" className="text-gray-300 hover:text-white transition-colors">
               Blog
-            </a>
-            <a href="#contact" className="text-gray-300 hover:text-white transition-colors">
+            </Link>
+            <Link href="#contact" className="text-gray-300 hover:text-white transition-colors">
               Contact
-            </a>
+            </Link>
           </nav>
 
           {/* Mobile Menu Button */}
@@ -41,18 +45,21 @@ export function Header() {
         {isMenuOpen && (
           <nav className="md:hidden py-4 border-t border-gray-800">
             <div className="flex flex-col space-y-4">
-              <a href="#about" className="text-gray-300 hover:text-white transition-colors">
+              <Link href="/" className="text-gray-300 hover:text-white transition-colors">
+                Home
+              </Link>
+              <Link href="#about" className="text-gray-300 hover:text-white transition-colors">
                 About
-              </a>
-              <a href="#experience" className="text-gray-300 hover:text-white transition-colors">
+              </Link>
+              <Link href="#experience" className="text-gray-300 hover:text-white transition-colors">
                 Experience
-              </a>
-              <a href="/blog" className="text-gray-300 hover:text-white transition-colors">
+              </Link>
+              <Link href="/blog" className="text-gray-300 hover:text-white transition-colors">
                 Blog
-              </a>
-              <a href="#contact" className="text-gray-300 hover:text-white transition-colors">
+              </Link>
+              <Link href="#contact" className="text-gray-300 hover:text-white transition-colors">
                 Contact
-              </a>
+              </Link>
             </div>
           </nav>
         )}

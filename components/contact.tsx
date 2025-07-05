@@ -1,51 +1,55 @@
 import { Card, CardContent } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
-import { Mail, Linkedin, Github, MapPin } from "lucide-react"
+import { Mail, Github, Linkedin, MapPin } from "lucide-react"
 
 export function Contact() {
   return (
     <section id="contact" className="py-20 px-4 bg-gray-800/50">
       <div className="max-w-4xl mx-auto text-center">
-        <h2 className="text-4xl font-bold mb-8">Let's Connect</h2>
+        <h2 className="text-4xl font-bold mb-8">Get In Touch</h2>
         <p className="text-xl text-gray-300 mb-12 max-w-2xl mx-auto">
-          I'm always interested in discussing new opportunities, sharing experiences, or connecting with fellow
-          professionals in tech and sports.
+          I'm always interested in new opportunities, collaborations, or just having a chat about technology, sports, or
+          career transitions.
         </p>
 
-        <div className="grid md:grid-cols-2 gap-8 mb-12">
-          <Card className="bg-gray-800 border-gray-700">
-            <CardContent className="p-6">
-              <Mail className="h-8 w-8 mx-auto mb-4 text-blue-400" />
-              <h3 className="text-lg font-semibold mb-2">Email</h3>
-              <p className="text-gray-400 mb-4">Drop me a line anytime</p>
-              <Button variant="outline" className="bg-transparent border-gray-600 hover:bg-gray-700">
-                Send Email
-              </Button>
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
+          <Card className="bg-gray-800 border-gray-700 hover:border-gray-600 transition-colors">
+            <CardContent className="p-6 text-center">
+              <Mail className="mx-auto h-8 w-8 text-blue-400 mb-4" />
+              <h3 className="font-semibold mb-2">Email</h3>
+              <p className="text-gray-400 text-sm">your.email@example.com</p>
             </CardContent>
           </Card>
 
-          <Card className="bg-gray-800 border-gray-700">
-            <CardContent className="p-6">
-              <MapPin className="h-8 w-8 mx-auto mb-4 text-green-400" />
-              <h3 className="text-lg font-semibold mb-2">Location</h3>
-              <p className="text-gray-400 mb-4">Open to remote opportunities</p>
-              <Button variant="outline" className="bg-transparent border-gray-600 hover:bg-gray-700">
-                View Resume
-              </Button>
+          <Card className="bg-gray-800 border-gray-700 hover:border-gray-600 transition-colors">
+            <CardContent className="p-6 text-center">
+              <Github className="mx-auto h-8 w-8 text-blue-400 mb-4" />
+              <h3 className="font-semibold mb-2">GitHub</h3>
+              <p className="text-gray-400 text-sm">@yourusername</p>
+            </CardContent>
+          </Card>
+
+          <Card className="bg-gray-800 border-gray-700 hover:border-gray-600 transition-colors">
+            <CardContent className="p-6 text-center">
+              <Linkedin className="mx-auto h-8 w-8 text-blue-400 mb-4" />
+              <h3 className="font-semibold mb-2">LinkedIn</h3>
+              <p className="text-gray-400 text-sm">@yourprofile</p>
+            </CardContent>
+          </Card>
+
+          <Card className="bg-gray-800 border-gray-700 hover:border-gray-600 transition-colors">
+            <CardContent className="p-6 text-center">
+              <MapPin className="mx-auto h-8 w-8 text-blue-400 mb-4" />
+              <h3 className="font-semibold mb-2">Location</h3>
+              <p className="text-gray-400 text-sm">Your City, Country</p>
             </CardContent>
           </Card>
         </div>
 
-        <div className="flex justify-center space-x-6">
-          <Button variant="outline" size="lg" className="bg-transparent border-gray-600 hover:bg-gray-700">
-            <Github className="mr-2 h-5 w-5" />
-            GitHub
-          </Button>
-          <Button variant="outline" size="lg" className="bg-transparent border-gray-600 hover:bg-gray-700">
-            <Linkedin className="mr-2 h-5 w-5" />
-            LinkedIn
-          </Button>
-        </div>
+        <Button size="lg" className="bg-blue-600 hover:bg-blue-700">
+          <Mail className="mr-2 h-5 w-5" />
+          Send Message
+        </Button>
       </div>
     </section>
   )
