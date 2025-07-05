@@ -1,5 +1,3 @@
-import { Card, CardContent } from "@/components/ui/card"
-import { Button } from "@/components/ui/button"
 import { Mail, Linkedin, Github, Twitter } from "lucide-react"
 
 export function Contact() {
@@ -7,26 +5,22 @@ export function Contact() {
     {
       name: "Email",
       icon: Mail,
-      href: "mailto:lara@example.com",
-      label: "lara@example.com",
+      href: "mailto:laragarg13@gmail.com",
     },
     {
       name: "LinkedIn",
       icon: Linkedin,
-      href: "https://linkedin.com/in/laragarg",
-      label: "linkedin.com/in/laragarg",
+      href: "https://www.linkedin.com/in/laragarg/",
     },
     {
       name: "GitHub",
       icon: Github,
-      href: "https://github.com/laragarg",
-      label: "github.com/laragarg",
+      href: "https://github.com/laragarg/",
     },
     {
       name: "Twitter",
       icon: Twitter,
-      href: "https://twitter.com/laragarg",
-      label: "@laragarg",
+      href: "https://x.com/lara_not_brian",
     },
   ]
 
@@ -39,23 +33,20 @@ export function Contact() {
           about the intersection of sports and technology.
         </p>
 
-        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="flex justify-center items-center gap-8">
           {socialLinks.map((link, index) => {
             const IconComponent = link.icon
             return (
-              <Card key={index} className="bg-gray-800 border-gray-700 hover:border-gray-600 transition-colors">
-                <CardContent className="p-6 text-center">
-                  <div className="w-12 h-12 mx-auto mb-4 bg-blue-600 rounded-full flex items-center justify-center">
-                    <IconComponent className="w-6 h-6 text-white" />
-                  </div>
-                  <h3 className="text-white font-semibold mb-2">{link.name}</h3>
-                  <Button variant="ghost" className="text-gray-300 hover:text-white p-0 h-auto text-sm" asChild>
-                    <a href={link.href} target="_blank" rel="noopener noreferrer">
-                      {link.label}
-                    </a>
-                  </Button>
-                </CardContent>
-              </Card>
+              <a
+                key={index}
+                href={link.href}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-12 h-12 bg-blue-600 rounded-full flex items-center justify-center hover:bg-blue-700 transition-colors"
+                aria-label={link.name}
+              >
+                <IconComponent className="w-6 h-6 text-white" />
+              </a>
             )
           })}
         </div>
