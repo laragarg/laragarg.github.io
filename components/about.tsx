@@ -10,42 +10,42 @@ export function About() {
         <div className="grid md:grid-cols-3 gap-8 mb-16">
           <Card className="bg-gray-800 border-gray-700">
             <CardContent className="p-6 text-center">
-              <Code className="mx-auto h-12 w-12 text-blue-400 mb-4" />
-              <h3 className="text-xl font-semibold mb-2">Software Engineer</h3>
+              <Code className="h-12 w-12 mx-auto mb-4 text-blue-400" />
+              <h3 className="text-xl font-semibold mb-3">Software Engineer</h3>
               <p className="text-gray-400">
-                Building scalable solutions on the ServiceNow platform with a focus on clean code and user experience.
+                Building scalable solutions at ServiceNow with a focus on platform development and user experience.
               </p>
             </CardContent>
           </Card>
 
           <Card className="bg-gray-800 border-gray-700">
             <CardContent className="p-6 text-center">
-              <TrendingUp className="mx-auto h-12 w-12 text-green-400 mb-4" />
-              <h3 className="text-xl font-semibold mb-2">Sales Background</h3>
+              <TrendingUp className="h-12 w-12 mx-auto mb-4 text-green-400" />
+              <h3 className="text-xl font-semibold mb-3">Sales Background</h3>
               <p className="text-gray-400">
-                One year of sales experience taught me to understand customer needs and communicate technical solutions
-                effectively.
+                One year of sales experience that taught me the importance of understanding customer needs and business
+                value.
               </p>
             </CardContent>
           </Card>
 
           <Card className="bg-gray-800 border-gray-700">
             <CardContent className="p-6 text-center">
-              <Trophy className="mx-auto h-12 w-12 text-yellow-400 mb-4" />
-              <h3 className="text-xl font-semibold mb-2">Professional Athlete</h3>
+              <Trophy className="h-12 w-12 mx-auto mb-4 text-yellow-400" />
+              <h3 className="text-xl font-semibold mb-3">Professional Athlete</h3>
               <p className="text-gray-400">
-                Former professional badminton player with discipline, strategic thinking, and performance under
+                Former professional badminton player with discipline, competitive spirit, and performance under
                 pressure.
               </p>
             </CardContent>
           </Card>
         </div>
 
-        <div className="max-w-3xl mx-auto text-center">
+        <div className="max-w-4xl mx-auto text-center">
           <p className="text-lg text-gray-300 leading-relaxed">
             My unique journey from professional sports to sales to software engineering has given me a distinctive
-            perspective on problem-solving, teamwork, and delivering results. I bring the same dedication and strategic
-            mindset that drove my athletic success to building innovative software solutions.
+            perspective on problem-solving, teamwork, and delivering results. I bring the discipline of an athlete, the
+            customer focus of a sales professional, and the technical skills of an engineer to every project I work on.
           </p>
         </div>
       </div>
