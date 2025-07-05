@@ -1,88 +1,74 @@
 import Link from "next/link"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
-import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
-import { Calendar, ArrowRight } from "lucide-react"
+import { ArrowRight, Calendar } from "lucide-react"
 
-export function RecentBlogs() {
+export default function RecentBlogs() {
   const recentPosts = [
     {
-      slug: "transitioning-from-sales-to-engineering",
       title: "Transitioning from Sales to Software Engineering",
-      date: "2024-12-15",
-      excerpt:
-        "Making the transition from sales to software engineering has been one of the most challenging yet rewarding experiences of my career.",
-      tags: ["Career", "Software Engineering", "Sales"],
+      excerpt: "My journey from sales to tech and the transferable skills that made the transition smoother.",
+      date: "2024-01-15",
+      slug: "transitioning-from-sales-to-engineering",
     },
     {
-      slug: "lessons-from-professional-badminton",
       title: "Lessons from Professional Badminton That Apply to Software Engineering",
-      date: "2024-12-10",
-      excerpt:
-        "My years playing professional badminton taught me invaluable lessons that I apply daily in my software engineering career.",
-      tags: ["Sports", "Career", "Mindset"],
+      excerpt: "How strategic thinking, discipline, and performance under pressure translate to coding.",
+      date: "2024-01-10",
+      slug: "lessons-from-professional-badminton",
     },
     {
-      slug: "servicenow-platform-insights",
       title: "Building on the ServiceNow Platform: A Developer's Perspective",
-      date: "2024-12-05",
-      excerpt:
-        "Working at ServiceNow has given me unique insights into enterprise software development and the power of low-code/no-code platforms.",
-      tags: ["ServiceNow", "Enterprise Software", "Platform Development"],
+      excerpt: "Insights into developing applications on ServiceNow and best practices I've learned.",
+      date: "2024-01-05",
+      slug: "servicenow-platform-insights",
     },
   ]
 
   return (
-    <section className="py-20 bg-gray-800">
-      <div className="container mx-auto px-4">
-        <div className="max-w-6xl mx-auto">
-          <div className="flex items-center justify-between mb-16">
-            <h2 className="text-4xl font-bold text-white">Recent Blog Posts</h2>
-            <Link href="/blog">
-              <Button variant="outline" className="border-gray-600 text-white hover:bg-gray-700 bg-transparent">
-                View All Posts
-                <ArrowRight className="w-4 h-4 ml-2" />
-              </Button>
-            </Link>
-          </div>
+    <section className="py-20 px-4">
+      <div className="max-w-6xl mx-auto">
+        <div className="text-center mb-16">
+          <h2 className="text-4xl md:text-5xl font-bold mb-6">Recent Blog Posts</h2>
+          <p className="text-xl text-gray-400 max-w-3xl mx-auto">
+            Sharing insights from my unique journey across sports, sales, and software engineering.
+          </p>
+        </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {recentPosts.map((post) => (
-              <Card key={post.slug} className="bg-gray-900 border-gray-700 hover:border-gray-600 transition-colors">
-                <CardHeader>
-                  <div className="flex items-center gap-2 text-gray-400 text-sm mb-2">
-                    <Calendar className="w-4 h-4" />
-                    {new Date(post.date).toLocaleDateString("en-US", {
-                      year: "numeric",
-                      month: "short",
-                      day: "numeric",
-                    })}
-                  </div>
-                  <CardTitle className="text-white text-lg leading-tight">
-                    <Link href={`/blog/${post.slug}`} className="hover:text-gray-300 transition-colors">
-                      {post.title}
-                    </Link>
-                  </CardTitle>
-                </CardHeader>
-                <CardContent>
-                  <p className="text-gray-300 text-sm mb-4 line-clamp-3">{post.excerpt}</p>
-                  <div className="flex flex-wrap gap-2 mb-4">
-                    {post.tags.map((tag) => (
-                      <Badge key={tag} variant="secondary" className="bg-gray-800 text-gray-300 text-xs">
-                        {tag}
-                      </Badge>
-                    ))}
-                  </div>
-                  <Link href={`/blog/${post.slug}`}>
-                    <Button variant="ghost" size="sm" className="text-gray-400 hover:text-white p-0">
-                      Read More
-                      <ArrowRight className="w-3 h-3 ml-1" />
-                    </Button>
-                  </Link>
-                </CardContent>
-              </Card>
-            ))}
-          </div>
+        <div className="grid md:grid-cols-3 gap-8 mb-12">
+          {recentPosts.map((post, index) => (
+            <Card key={index} className="bg-gray-800 border-gray-700 hover:bg-gray-750 transition-colors">
+              <CardHeader>
+                <div className="flex items-center text-sm text-gray-400 mb-2">
+                  <Calendar className="w-4 h-4 mr-2" />
+                  {new Date(post.date).toLocaleDateString("en-US", {
+                    year: "numeric",
+                    month: "long",
+                    day: "numeric",
+                  })}
+                </div>
+                <CardTitle className="text-white hover:text-gray-300 transition-colors">
+                  <Link href={`/blog/${post.slug}`}>{post.title}</Link>
+                </CardTitle>
+              </CardHeader>
+              <CardContent>
+                <p className="text-gray-400 mb-4">{post.excerpt}</p>
+                <Link href={`/blog/${post.slug}`}>
+                  <Button variant="ghost" className="text-white hover:text-gray-300 p-0">
+                    Read More <ArrowRight className="w-4 h-4 ml-2" />
+                  </Button>
+                </Link>
+              </CardContent>
+            </Card>
+          ))}
+        </div>
+
+        <div className="text-center">
+          <Link href="/blog">
+            <Button size="lg" variant="outline" className="border-gray-600 text-white hover:bg-gray-800 bg-transparent">
+              View All Posts
+            </Button>
+          </Link>
         </div>
       </div>
     </section>

@@ -1,111 +1,115 @@
-import { Header } from "@/components/header"
-import { BlogPost } from "@/components/blog-post"
+import { notFound } from "next/navigation"
+import Header from "@/components/header"
+import BlogPost from "@/components/blog-post"
 
-interface BlogPostPageProps {
-  params: {
-    slug: string
-  }
-}
-
-// Blog posts data
 const blogPosts = {
   "transitioning-from-sales-to-engineering": {
     title: "Transitioning from Sales to Software Engineering",
-    date: "2024-12-15",
+    date: "2024-01-15",
+    readTime: "5 min read",
     content: `
-      <p>Making the transition from sales to software engineering has been one of the most challenging yet rewarding experiences of my career. Here's what I learned along the way...</p>
+      <p>Making the leap from sales to software engineering might seem like a dramatic career change, but the transition taught me that many skills are more transferable than you might think.</p>
       
-      <h2>The Skills That Transferred</h2>
-      <p>Surprisingly, many skills from sales directly apply to engineering:</p>
+      <h2>The Decision to Switch</h2>
+      <p>After a year in sales, I realized that while I enjoyed solving customer problems, I was more fascinated by the technical solutions behind those problems. The logical thinking required in sales—understanding customer needs, crafting solutions, and communicating complex ideas—actually prepared me well for programming.</p>
+      
+      <h2>Transferable Skills</h2>
+      <p>Several skills from my sales experience proved invaluable in software engineering:</p>
       <ul>
-        <li><strong>Problem-solving:</strong> Understanding client pain points translates well to debugging and system design</li>
-        <li><strong>Communication:</strong> Explaining complex technical concepts to stakeholders</li>
-        <li><strong>Persistence:</strong> Both fields require pushing through challenges and setbacks</li>
+        <li><strong>Problem-solving:</strong> Sales taught me to break down complex customer problems into manageable parts</li>
+        <li><strong>Communication:</strong> Explaining technical concepts to non-technical stakeholders</li>
+        <li><strong>Persistence:</strong> Debugging code requires the same persistence as closing deals</li>
+        <li><strong>Customer focus:</strong> Understanding end-user needs when building applications</li>
       </ul>
       
-      <h2>The Learning Curve</h2>
-      <p>The technical learning curve was steep, but my sales background helped me approach it systematically. I treated learning programming languages like learning about new products - understanding the features, benefits, and use cases.</p>
+      <h2>The Learning Journey</h2>
+      <p>The transition wasn't without challenges. I had to dedicate significant time to learning programming fundamentals, but my sales background helped me understand the business context of the applications I was building.</p>
       
-      <h2>Advice for Others</h2>
-      <p>If you're considering a similar transition, remember that your previous experience isn't wasted - it's a unique advantage that sets you apart from other engineers.</p>
+      <p>At ServiceNow, I've found that my sales experience gives me a unique perspective on how our platform serves real business needs, making me a more effective developer.</p>
     `,
-    tags: ["Career", "Software Engineering", "Sales"],
   },
   "lessons-from-professional-badminton": {
     title: "Lessons from Professional Badminton That Apply to Software Engineering",
-    date: "2024-12-10",
+    date: "2024-01-10",
+    readTime: "7 min read",
     content: `
-      <p>My years playing professional badminton taught me invaluable lessons that I apply daily in my software engineering career...</p>
+      <p>Professional sports and software engineering might seem worlds apart, but my experience as a professional badminton player has been surprisingly relevant to my career in tech.</p>
       
-      <h2>Mental Resilience</h2>
-      <p>In badminton, you can lose a point and immediately need to reset for the next one. Similarly, in engineering, bugs and failed deployments require quick mental recovery and focused problem-solving.</p>
+      <h2>Strategic Thinking</h2>
+      <p>In badminton, every shot is strategic. You're constantly thinking several moves ahead, anticipating your opponent's responses, and adapting your game plan. This translates directly to software architecture and problem-solving.</p>
       
-      <h2>Precision Under Pressure</h2>
-      <p>Tournament play taught me to maintain precision when stakes are high - a skill that's crucial during production incidents or tight deadlines.</p>
+      <p>When designing systems, I apply the same strategic mindset—considering edge cases, planning for scalability, and thinking about how different components will interact.</p>
+      
+      <h2>Performance Under Pressure</h2>
+      <p>Professional sports teach you to perform when it matters most. Whether it's a crucial match point or a production bug that needs immediate fixing, the ability to stay calm and think clearly under pressure is invaluable.</p>
       
       <h2>Continuous Improvement</h2>
-      <p>Professional sports instill a mindset of constant refinement. Every practice session, every match is an opportunity to improve. I apply this same philosophy to code reviews, learning new technologies, and refining my craft.</p>
+      <p>In badminton, you're constantly analyzing your performance, identifying weaknesses, and working to improve. This mindset of continuous learning and improvement is essential in tech, where technologies and best practices are constantly evolving.</p>
       
-      <h2>Team Dynamics</h2>
-      <p>Even in singles play, you have coaches, training partners, and support staff. Software engineering is similarly collaborative, requiring clear communication and mutual support.</p>
+      <h2>Team Collaboration</h2>
+      <p>Even in individual sports like badminton, you work with coaches, training partners, and support staff. Similarly, software development is rarely a solo endeavor—it requires effective collaboration with designers, product managers, and other developers.</p>
+      
+      <h2>Discipline and Consistency</h2>
+      <p>Professional sports require daily discipline and consistent effort. The same applies to software engineering—consistent coding practices, regular learning, and disciplined approach to problem-solving lead to better outcomes.</p>
     `,
-    tags: ["Sports", "Career", "Mindset"],
   },
   "servicenow-platform-insights": {
     title: "Building on the ServiceNow Platform: A Developer's Perspective",
-    date: "2024-12-05",
+    date: "2024-01-05",
+    readTime: "6 min read",
     content: `
-      <p>Working at ServiceNow has given me unique insights into enterprise software development and the power of low-code/no-code platforms...</p>
+      <p>Working as a software engineer at ServiceNow has given me deep insights into platform development and the unique challenges and opportunities it presents.</p>
       
-      <h2>The Platform Advantage</h2>
-      <p>ServiceNow's platform approach allows for rapid application development while maintaining enterprise-grade security and scalability. Here's what makes it special:</p>
+      <h2>Understanding the Platform Approach</h2>
+      <p>ServiceNow isn't just a software company—it's a platform that enables organizations to digitize their workflows. This platform approach means thinking beyond individual applications to consider how different systems integrate and work together.</p>
       
-      <h2>Key Learnings</h2>
+      <h2>Key Development Principles</h2>
+      <p>Several principles guide effective development on the ServiceNow platform:</p>
+      
+      <h3>Configuration Over Customization</h3>
+      <p>Whenever possible, use out-of-the-box functionality and configuration options rather than custom code. This ensures easier upgrades and better maintainability.</p>
+      
+      <h3>Understand the Data Model</h3>
+      <p>ServiceNow's power lies in its robust data model. Understanding table relationships, inheritance, and data flow is crucial for building effective applications.</p>
+      
+      <h3>Leverage Platform Features</h3>
+      <p>The platform provides powerful features like workflow automation, reporting, and integration capabilities. Learning to leverage these effectively can save significant development time.</p>
+      
+      <h2>Best Practices I've Learned</h2>
       <ul>
-        <li><strong>Configuration over Customization:</strong> Leveraging platform capabilities reduces technical debt</li>
-        <li><strong>Integration Patterns:</strong> How to connect disparate enterprise systems effectively</li>
-        <li><strong>User Experience:</strong> Building intuitive interfaces for complex business processes</li>
+        <li><strong>Start with requirements:</strong> Understand the business process before jumping into technical implementation</li>
+        <li><strong>Think in terms of workflows:</strong> ServiceNow excels at workflow automation—design with this in mind</li>
+        <li><strong>Plan for integration:</strong> Most ServiceNow implementations involve integrating with other systems</li>
+        <li><strong>Consider the user experience:</strong> The platform provides many UX options—choose the right one for your users</li>
       </ul>
       
-      <h2>Technical Deep Dive</h2>
-      <p>The platform's architecture teaches valuable lessons about building scalable, multi-tenant applications that can be applied to any software project.</p>
+      <h2>The Future of Platform Development</h2>
+      <p>Platform development is evolving rapidly, with increased focus on low-code/no-code solutions, AI integration, and mobile-first experiences. Staying current with these trends while maintaining solid fundamentals is key to success.</p>
     `,
-    tags: ["ServiceNow", "Enterprise Software", "Platform Development"],
   },
 }
 
-// This function is required for static export with dynamic routes
 export async function generateStaticParams() {
-  return Object.keys(blogPosts).map((slug) => ({
-    slug: slug,
-  }))
+  return [
+    { slug: "transitioning-from-sales-to-engineering" },
+    { slug: "lessons-from-professional-badminton" },
+    { slug: "servicenow-platform-insights" },
+  ]
 }
 
-const getBlogPost = (slug: string) => {
-  return blogPosts[slug as keyof typeof blogPosts] || null
-}
-
-export default function BlogPostPage({ params }: BlogPostPageProps) {
-  const post = getBlogPost(params.slug)
+export default function BlogPostPage({ params }: { params: { slug: string } }) {
+  const post = blogPosts[params.slug as keyof typeof blogPosts]
 
   if (!post) {
-    return (
-      <div className="min-h-screen bg-gray-900">
-        <Header />
-        <main className="container mx-auto px-4 py-16">
-          <div className="max-w-4xl mx-auto text-center">
-            <h1 className="text-4xl font-bold text-white mb-4">Post Not Found</h1>
-            <p className="text-gray-300">The blog post you're looking for doesn't exist.</p>
-          </div>
-        </main>
-      </div>
-    )
+    notFound()
   }
 
   return (
-    <div className="min-h-screen bg-gray-900">
+    <div className="min-h-screen bg-gray-900 text-white">
       <Header />
-      <BlogPost post={post} />
+      <main className="pt-20">
+        <BlogPost post={post} />
+      </main>
     </div>
   )
 }

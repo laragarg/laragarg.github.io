@@ -1,48 +1,42 @@
 import { Button } from "@/components/ui/button"
-import { ArrowDown, Github, Linkedin, Mail } from "lucide-react"
+import { ArrowDown } from "lucide-react"
 
-export function Hero() {
+export default function Hero() {
   return (
-    <section className="min-h-screen flex items-center justify-center bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900">
-      <div className="container mx-auto px-4 text-center">
-        <div className="max-w-4xl mx-auto">
-          <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-white to-gray-300 bg-clip-text text-transparent">
-            Lara Garg
-          </h1>
-          <p className="text-xl md:text-2xl text-gray-300 mb-8 leading-relaxed">
-            Software Engineer at ServiceNow | Former Sales Professional | Professional Badminton Player
-          </p>
-          <p className="text-lg text-gray-400 mb-12 max-w-2xl mx-auto">
-            Bridging the gap between technical excellence and business understanding, with the discipline and precision
-            learned from professional sports.
-          </p>
-
-          <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
-            <Button size="lg" className="bg-white text-gray-900 hover:bg-gray-100">
-              <Mail className="w-5 h-5 mr-2" />
-              Get In Touch
-            </Button>
-            <Button size="lg" variant="outline" className="border-gray-600 text-white hover:bg-gray-800 bg-transparent">
-              <Github className="w-5 h-5 mr-2" />
-              View Projects
-            </Button>
-          </div>
-
-          <div className="flex justify-center gap-6">
-            <a href="#" className="text-gray-400 hover:text-white transition-colors">
-              <Github className="w-6 h-6" />
-            </a>
-            <a href="#" className="text-gray-400 hover:text-white transition-colors">
-              <Linkedin className="w-6 h-6" />
-            </a>
-            <a href="#" className="text-gray-400 hover:text-white transition-colors">
-              <Mail className="w-6 h-6" />
-            </a>
-          </div>
+    <section className="min-h-screen flex items-center justify-center px-4 py-20">
+      <div className="max-w-4xl mx-auto text-center">
+        <div className="mb-8">
+          <img
+            src="/placeholder-user.jpg"
+            alt="Profile"
+            className="w-32 h-32 rounded-full mx-auto mb-6 border-4 border-gray-700"
+          />
         </div>
 
-        <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
-          <ArrowDown className="w-6 h-6 text-gray-400" />
+        <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-white to-gray-400 bg-clip-text text-transparent">
+          Lara Garg
+        </h1>
+
+        <p className="text-xl md:text-2xl text-gray-300 mb-8 max-w-3xl mx-auto leading-relaxed">
+          Software Engineer at ServiceNow with a unique blend of technical expertise, sales acumen, and professional
+          sports background. Bridging the gap between technology and human connection.
+        </p>
+
+        <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
+          <Button size="lg" className="bg-white text-gray-900 hover:bg-gray-200 font-semibold px-8 py-3">
+            View My Work
+          </Button>
+          <Button
+            size="lg"
+            variant="outline"
+            className="border-gray-600 text-white hover:bg-gray-800 px-8 py-3 bg-transparent"
+          >
+            Read My Blog
+          </Button>
+        </div>
+
+        <div className="animate-bounce">
+          <ArrowDown className="w-6 h-6 mx-auto text-gray-400" />
         </div>
       </div>
     </section>
