@@ -1,14 +1,15 @@
 "use client"
 
 import { useState } from "react"
+import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { Menu, X } from "lucide-react"
 
-export function Header() {
+export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
 
-  const navItems = [
-    { name: "Home", href: "#home" },
+  const navigation = [
+    { name: "Home", href: "/" },
     { name: "About", href: "#about" },
     { name: "Experience", href: "#experience" },
     { name: "Blog", href: "/blog" },
@@ -19,22 +20,24 @@ export function Header() {
     <header className="fixed top-0 w-full bg-gray-900/95 backdrop-blur-sm border-b border-gray-800 z-50">
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center py-4">
-          <div className="text-2xl font-bold text-white">LG</div>
+          <Link href="/" className="text-2xl font-bold text-white">
+            LG
+          </Link>
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex space-x-8">
-            {navItems.map((item) => (
-              <a
+            {navigation.map((item) => (
+              <Link
                 key={item.name}
                 href={item.href}
                 className="text-gray-300 hover:text-white transition-colors duration-200"
               >
                 {item.name}
-              </a>
+              </Link>
             ))}
           </div>
 
-          {/* Mobile Menu Button */}
+          {/* Mobile menu button */}
           <Button variant="ghost" size="sm" className="md:hidden text-white" onClick={() => setIsMenuOpen(!isMenuOpen)}>
             {isMenuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
           </Button>
@@ -42,17 +45,17 @@ export function Header() {
 
         {/* Mobile Navigation */}
         {isMenuOpen && (
-          <div className="md:hidden py-4 border-t border-gray-800">
-            <div className="flex flex-col space-y-4">
-              {navItems.map((item) => (
-                <a
+          <div className="md:hidden">
+            <div className="px-2 pt-2 pb-3 space-y-1 bg-gray-800 rounded-lg mb-4">
+              {navigation.map((item) => (
+                <Link
                   key={item.name}
                   href={item.href}
-                  className="text-gray-300 hover:text-white transition-colors duration-200 px-2 py-1"
+                  className="block px-3 py-2 text-gray-300 hover:text-white transition-colors duration-200"
                   onClick={() => setIsMenuOpen(false)}
                 >
                   {item.name}
-                </a>
+                </Link>
               ))}
             </div>
           </div>

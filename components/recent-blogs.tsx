@@ -1,71 +1,74 @@
+import Link from "next/link"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
-import { Badge } from "@/components/ui/badge"
-import { Calendar, ArrowRight } from "lucide-react"
-import Link from "next/link"
+import { ArrowRight, Calendar } from "lucide-react"
 
-const recentPosts = [
-  {
-    title: "Transitioning from Sales to Software Engineering",
-    excerpt: "My journey from sales to tech and the valuable lessons learned along the way.",
-    date: "2024-01-15",
-    slug: "transitioning-from-sales-to-engineering",
-    tags: ["Career", "Tech Transition"],
-  },
-  {
-    title: "Lessons from Professional Badminton That Apply to Software Engineering",
-    excerpt: "How competitive sports shaped my approach to software development and teamwork.",
-    date: "2024-01-10",
-    slug: "lessons-from-professional-badminton",
-    tags: ["Sports", "Engineering", "Mindset"],
-  },
-  {
-    title: "Building on the ServiceNow Platform: A Developer's Perspective",
-    excerpt: "Insights into enterprise software development and platform-based solutions.",
-    date: "2024-01-05",
-    slug: "servicenow-platform-insights",
-    tags: ["ServiceNow", "Platform Development"],
-  },
-]
+export default function RecentBlogs() {
+  const recentPosts = [
+    {
+      title: "Transitioning from Sales to Software Engineering",
+      excerpt: "My journey from sales to tech and the transferable skills that made the transition smoother.",
+      date: "2024-01-15",
+      slug: "transitioning-from-sales-to-engineering",
+    },
+    {
+      title: "Lessons from Professional Badminton That Apply to Software Engineering",
+      excerpt: "How strategic thinking, discipline, and performance under pressure translate to coding.",
+      date: "2024-01-10",
+      slug: "lessons-from-professional-badminton",
+    },
+    {
+      title: "Building on the ServiceNow Platform: A Developer's Perspective",
+      excerpt: "Insights into developing applications on ServiceNow and best practices I've learned.",
+      date: "2024-01-05",
+      slug: "servicenow-platform-insights",
+    },
+  ]
 
-export function RecentBlogs() {
   return (
     <section className="py-20 px-4">
       <div className="max-w-6xl mx-auto">
-        <div className="flex justify-between items-center mb-16">
-          <h2 className="text-4xl font-bold">Recent Blog Posts</h2>
-          <Link href="/blog">
-            <Button variant="outline" className="border-gray-600 text-white hover:bg-gray-800 bg-transparent">
-              View All Posts
-              <ArrowRight className="ml-2 h-4 w-4" />
-            </Button>
-          </Link>
+        <div className="text-center mb-16">
+          <h2 className="text-4xl md:text-5xl font-bold mb-6">Recent Blog Posts</h2>
+          <p className="text-xl text-gray-400 max-w-3xl mx-auto">
+            Sharing insights from my unique journey across sports, sales, and software engineering.
+          </p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-3 gap-8 mb-12">
           {recentPosts.map((post, index) => (
-            <Card key={index} className="bg-gray-800 border-gray-700 hover:border-gray-600 transition-colors">
+            <Card key={index} className="bg-gray-800 border-gray-700 hover:bg-gray-750 transition-colors">
               <CardHeader>
                 <div className="flex items-center text-sm text-gray-400 mb-2">
-                  <Calendar className="h-4 w-4 mr-2" />
-                  {new Date(post.date).toLocaleDateString()}
+                  <Calendar className="w-4 h-4 mr-2" />
+                  {new Date(post.date).toLocaleDateString("en-US", {
+                    year: "numeric",
+                    month: "long",
+                    day: "numeric",
+                  })}
                 </div>
                 <CardTitle className="text-white hover:text-gray-300 transition-colors">
                   <Link href={`/blog/${post.slug}`}>{post.title}</Link>
                 </CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-gray-300 mb-4 line-clamp-3">{post.excerpt}</p>
-                <div className="flex flex-wrap gap-2">
-                  {post.tags.map((tag, tagIndex) => (
-                    <Badge key={tagIndex} variant="secondary" className="bg-gray-700 text-gray-200 text-xs">
-                      {tag}
-                    </Badge>
-                  ))}
-                </div>
+                <p className="text-gray-400 mb-4">{post.excerpt}</p>
+                <Link href={`/blog/${post.slug}`}>
+                  <Button variant="ghost" className="text-white hover:text-gray-300 p-0">
+                    Read More <ArrowRight className="w-4 h-4 ml-2" />
+                  </Button>
+                </Link>
               </CardContent>
             </Card>
           ))}
+        </div>
+
+        <div className="text-center">
+          <Link href="/blog">
+            <Button size="lg" variant="outline" className="border-gray-600 text-white hover:bg-gray-800 bg-transparent">
+              View All Posts
+            </Button>
+          </Link>
         </div>
       </div>
     </section>

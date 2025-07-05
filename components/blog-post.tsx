@@ -1,76 +1,30 @@
-import { Badge } from "@/components/ui/badge"
-import { Button } from "@/components/ui/button"
 import { Calendar, Clock, ArrowLeft } from "lucide-react"
+import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
 interface BlogPostProps {
   post: {
     title: string
     date: string
-    tags: string[]
     readTime: string
     content: string
   }
 }
 
-export function BlogPost({ post }: BlogPostProps) {
-  // Simple markdown-like parsing for demo purposes
-  const formatContent = (content: string) => {
-    return content.split("\n").map((line, index) => {
-      if (line.startsWith("## ")) {
-        return (
-          <h2 key={index} className="text-2xl font-bold mt-8 mb-4 text-white">
-            {line.replace("## ", "")}
-          </h2>
-        )
-      }
-      if (line.startsWith("### ")) {
-        return (
-          <h3 key={index} className="text-xl font-semibold mt-6 mb-3 text-white">
-            {line.replace("### ", "")}
-          </h3>
-        )
-      }
-      if (line.startsWith("- ")) {
-        return (
-          <li key={index} className="text-gray-300 mb-2 ml-4">
-            {line.replace("- ", "")}
-          </li>
-        )
-      }
-      if (line.match(/^\d+\./)) {
-        return (
-          <li key={index} className="text-gray-300 mb-2 ml-4 list-decimal">
-            {line.replace(/^\d+\.\s*/, "")}
-          </li>
-        )
-      }
-      if (line.trim() === "") {
-        return <br key={index} />
-      }
-      return (
-        <p key={index} className="text-gray-300 mb-4 leading-relaxed">
-          {line}
-        </p>
-      )
-    })
-  }
-
+export default function BlogPost({ post }: BlogPostProps) {
   return (
-    <article className="max-w-4xl mx-auto px-4 py-12">
-      <Link href="/blog">
-        <Button variant="ghost" className="mb-8 text-gray-400 hover:text-white">
-          <ArrowLeft className="h-4 w-4 mr-2" />
-          Back to Blog
-        </Button>
-      </Link>
+    <article className="max-w-4xl mx-auto px-4 py-16">
+      <div className="mb-8">
+        <Link href="/blog">
+          <Button variant="ghost" className="text-gray-400 hover:text-white mb-6">
+            <ArrowLeft className="w-4 h-4 mr-2" />
+            Back to Blog
+          </Button>
+        </Link>
 
-      <header className="mb-12">
-        <h1 className="text-4xl md:text-5xl font-bold mb-6 text-white leading-tight">{post.title}</h1>
-
-        <div className="flex flex-wrap items-center gap-4 text-gray-400 mb-6">
+        <div className="flex items-center text-sm text-gray-400 mb-4 space-x-4">
           <div className="flex items-center">
-            <Calendar className="h-4 w-4 mr-2" />
+            <Calendar className="w-4 h-4 mr-2" />
             {new Date(post.date).toLocaleDateString("en-US", {
               year: "numeric",
               month: "long",
@@ -78,21 +32,36 @@ export function BlogPost({ post }: BlogPostProps) {
             })}
           </div>
           <div className="flex items-center">
-            <Clock className="h-4 w-4 mr-2" />
+            <Clock className="w-4 h-4 mr-2" />
             {post.readTime}
           </div>
         </div>
 
-        <div className="flex flex-wrap gap-2">
-          {post.tags.map((tag, index) => (
-            <Badge key={index} variant="secondary" className="bg-gray-700 text-gray-200">
-              {tag}
-            </Badge>
-          ))}
-        </div>
-      </header>
+        <h1 className="text-4xl md:text-5xl font-bold mb-8 leading-tight">{post.title}</h1>
+      </div>
 
-      <div className="prose prose-lg prose-invert max-w-none">{formatContent(post.content)}</div>
+      <div
+        className="prose prose-lg prose-invert max-w-none
+          prose-headings:text-white prose-headings:font-semibold
+          prose-p:text-gray-300 prose-p:leading-relaxed
+          prose-a:text-blue-400 prose-a:no-underline hover:prose-a:underline
+          prose-strong:text-white prose-strong:font-semibold
+          prose-ul:text-gray-300 prose-li:text-gray-300
+          prose-h2:text-2xl prose-h2:mt-12 prose-h2:mb-6
+          prose-h3:text-xl prose-h3:mt-8 prose-h3:mb-4"
+        dangerouslySetInnerHTML={{ __html: post.content }}
+      />
+
+      <div className="mt-16 pt-8 border-t border-gray-700">
+        <div className="text-center">
+          <p className="text-gray-400 mb-4">
+            Thanks for reading! Feel free to connect with me to discuss this topic further.
+          </p>
+          <Link href="/#contact">
+            <Button className="bg-white text-gray-900 hover:bg-gray-200">Get In Touch</Button>
+          </Link>
+        </div>
+      </div>
     </article>
   )
 }
