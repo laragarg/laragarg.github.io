@@ -8,8 +8,8 @@ export function Experience() {
       company: "ServiceNow",
       period: "2023 - Present",
       description:
-        "Developing and maintaining platform solutions, working with modern web technologies and contributing to enterprise-level applications.",
-      technologies: ["JavaScript", "React", "Node.js", "ServiceNow Platform", "REST APIs"],
+        "Developing and maintaining platform solutions, working with modern web technologies and contributing to scalable enterprise software.",
+      skills: ["JavaScript", "React", "Node.js", "ServiceNow Platform", "REST APIs"],
     },
     {
       title: "Sales Professional",
@@ -17,7 +17,7 @@ export function Experience() {
       period: "2022 - 2023",
       description:
         "Gained valuable experience in customer relationship management, understanding business needs, and translating technical solutions into business value.",
-      technologies: ["CRM", "Sales Strategy", "Customer Relations", "Business Development"],
+      skills: ["Customer Relations", "Business Development", "Solution Selling", "Communication"],
     },
     {
       title: "Professional Badminton Player",
@@ -25,7 +25,7 @@ export function Experience() {
       period: "2018 - 2022",
       description:
         "Competed at professional level, developing discipline, strategic thinking, and the ability to perform under pressure.",
-      technologies: ["Team Leadership", "Strategic Planning", "Performance Analysis", "Mental Resilience"],
+      skills: ["Strategic Thinking", "Performance Under Pressure", "Team Collaboration", "Discipline"],
     },
   ]
 
@@ -41,9 +41,9 @@ export function Experience() {
                 <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-4">
                   <div>
                     <h3 className="text-xl font-semibold mb-1">{exp.title}</h3>
-                    <p className="text-blue-400 font-medium">{exp.company}</p>
+                    <p className="text-gray-400">{exp.company}</p>
                   </div>
-                  <Badge variant="outline" className="border-gray-600 text-gray-300 w-fit mt-2 md:mt-0">
+                  <Badge variant="outline" className="mt-2 md:mt-0 w-fit">
                     {exp.period}
                   </Badge>
                 </div>
@@ -51,9 +51,9 @@ export function Experience() {
                 <p className="text-gray-300 mb-4 leading-relaxed">{exp.description}</p>
 
                 <div className="flex flex-wrap gap-2">
-                  {exp.technologies.map((tech, techIndex) => (
-                    <Badge key={techIndex} variant="secondary" className="bg-gray-700 text-gray-300">
-                      {tech}
+                  {exp.skills.map((skill, skillIndex) => (
+                    <Badge key={skillIndex} variant="secondary" className="bg-gray-700 text-gray-300">
+                      {skill}
                     </Badge>
                   ))}
                 </div>

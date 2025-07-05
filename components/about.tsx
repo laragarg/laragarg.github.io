@@ -34,8 +34,8 @@ export function About() {
               <Trophy className="h-12 w-12 mx-auto mb-4 text-yellow-400" />
               <h3 className="text-xl font-semibold mb-3">Professional Athlete</h3>
               <p className="text-gray-400">
-                Former professional badminton player with a competitive mindset that drives excellence in everything I
-                do.
+                Former professional badminton player with discipline, competitive spirit, and performance under
+                pressure.
               </p>
             </CardContent>
           </Card>
@@ -43,10 +43,9 @@ export function About() {
 
         <div className="max-w-4xl mx-auto text-center">
           <p className="text-lg text-gray-300 leading-relaxed">
-            My unique journey from professional sports to sales and finally to software engineering has given me a
-            distinctive perspective on problem-solving, teamwork, and perseverance. I bring the discipline of an
-            athlete, the customer-focused mindset of a salesperson, and the technical skills of an engineer to every
-            project I work on.
+            My unique journey from professional sports to sales to software engineering has given me a distinctive
+            perspective on problem-solving, teamwork, and delivering results. I bring the discipline of an athlete, the
+            customer focus of a sales professional, and the technical skills of an engineer to every project I work on.
           </p>
         </div>
       </div>

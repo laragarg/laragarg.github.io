@@ -1,95 +1,212 @@
+import { Header } from "@/components/header"
+import { BlogPost } from "@/components/blog-post"
 import { notFound } from "next/navigation"
-import Header from "@/components/header"
-import BlogPost from "@/components/blog-post"
 
 const blogPosts = {
   "transitioning-from-sales-to-engineering": {
     title: "Transitioning from Sales to Software Engineering",
     date: "2024-01-15",
-    readTime: "5 min read",
     content: `
-      <p>Making the leap from sales to software engineering might seem like a dramatic career change, but the transition taught me that many skills are more transferable than you might think.</p>
-      
-      <h2>The Decision to Switch</h2>
-      <p>After a year in sales, I realized that while I enjoyed solving customer problems, I was more fascinated by the technical solutions behind those problems. The logical thinking required in sales—understanding customer needs, crafting solutions, and communicating complex ideas—actually prepared me well for programming.</p>
-      
-      <h2>Transferable Skills</h2>
-      <p>Several skills from my sales experience proved invaluable in software engineering:</p>
-      <ul>
-        <li><strong>Problem-solving:</strong> Sales taught me to break down complex customer problems into manageable parts</li>
-        <li><strong>Communication:</strong> Explaining technical concepts to non-technical stakeholders</li>
-        <li><strong>Persistence:</strong> Debugging code requires the same persistence as closing deals</li>
-        <li><strong>Customer focus:</strong> Understanding end-user needs when building applications</li>
-      </ul>
-      
-      <h2>The Learning Journey</h2>
-      <p>The transition wasn't without challenges. I had to dedicate significant time to learning programming fundamentals, but my sales background helped me understand the business context of the applications I was building.</p>
-      
-      <p>At ServiceNow, I've found that my sales experience gives me a unique perspective on how our platform serves real business needs, making me a more effective developer.</p>
+# Transitioning from Sales to Software Engineering
+
+Making the leap from sales to software engineering might seem like a dramatic career change, but the skills are more transferable than you might think. Here's my journey and what I learned along the way.
+
+## The Decision to Switch
+
+After a year in sales, I realized that while I enjoyed the problem-solving aspect and working with clients, I was more interested in building the solutions than selling them. The technical challenges and the ability to create something from scratch drew me to software engineering.
+
+## Transferable Skills
+
+### 1. Understanding Customer Needs
+In sales, you learn to listen carefully to what customers actually need, not just what they say they want. This skill is invaluable in software engineering when gathering requirements and designing user-centered solutions.
+
+### 2. Communication
+Explaining complex technical concepts to non-technical stakeholders is essentially the same skill as explaining product benefits to potential customers. Both require breaking down complexity into understandable terms.
+
+### 3. Problem-Solving Under Pressure
+Sales taught me to think quickly and find creative solutions when deals were on the line. This translates well to debugging code under tight deadlines or finding workarounds for technical limitations.
+
+## The Learning Journey
+
+The transition wasn't without challenges. I had to:
+- Learn programming fundamentals from scratch
+- Understand software architecture and design patterns
+- Adapt to a different pace and style of work
+- Build technical credibility in a new field
+
+## Advice for Others Making the Switch
+
+1. **Start coding while still in your current role** - Use evenings and weekends to build a foundation
+2. **Focus on practical projects** - Build things that solve real problems
+3. **Network within the tech community** - Attend meetups and connect with other developers
+4. **Don't undervalue your previous experience** - Your unique background is an asset
+
+The combination of sales experience and technical skills has made me a more well-rounded engineer, especially when working on customer-facing features or communicating with stakeholders.
     `,
+    tags: ["Career", "Sales", "Engineering", "Transition"],
   },
   "lessons-from-professional-badminton": {
     title: "Lessons from Professional Badminton That Apply to Software Engineering",
     date: "2024-01-10",
-    readTime: "7 min read",
     content: `
-      <p>Professional sports and software engineering might seem worlds apart, but my experience as a professional badminton player has been surprisingly relevant to my career in tech.</p>
-      
-      <h2>Strategic Thinking</h2>
-      <p>In badminton, every shot is strategic. You're constantly thinking several moves ahead, anticipating your opponent's responses, and adapting your game plan. This translates directly to software architecture and problem-solving.</p>
-      
-      <p>When designing systems, I apply the same strategic mindset—considering edge cases, planning for scalability, and thinking about how different components will interact.</p>
-      
-      <h2>Performance Under Pressure</h2>
-      <p>Professional sports teach you to perform when it matters most. Whether it's a crucial match point or a production bug that needs immediate fixing, the ability to stay calm and think clearly under pressure is invaluable.</p>
-      
-      <h2>Continuous Improvement</h2>
-      <p>In badminton, you're constantly analyzing your performance, identifying weaknesses, and working to improve. This mindset of continuous learning and improvement is essential in tech, where technologies and best practices are constantly evolving.</p>
-      
-      <h2>Team Collaboration</h2>
-      <p>Even in individual sports like badminton, you work with coaches, training partners, and support staff. Similarly, software development is rarely a solo endeavor—it requires effective collaboration with designers, product managers, and other developers.</p>
-      
-      <h2>Discipline and Consistency</h2>
-      <p>Professional sports require daily discipline and consistent effort. The same applies to software engineering—consistent coding practices, regular learning, and disciplined approach to problem-solving lead to better outcomes.</p>
+# Lessons from Professional Badminton That Apply to Software Engineering
+
+Professional sports and software engineering might seem worlds apart, but the mental frameworks and disciplines I developed as a professional badminton player have been invaluable in my engineering career.
+
+## The Mindset of Continuous Improvement
+
+### Deliberate Practice
+In badminton, every training session had a specific focus - footwork, shot accuracy, or tactical awareness. Similarly, in software engineering, I approach learning with the same deliberate practice mindset:
+- Focus on one concept at a time
+- Practice until it becomes second nature
+- Seek feedback and iterate
+
+### Performance Analysis
+Professional athletes constantly analyze their performance through video reviews and statistics. I apply this same analytical approach to my code:
+- Regular code reviews
+- Performance monitoring
+- Learning from bugs and failures
+
+## Strategic Thinking Under Pressure
+
+### Reading the Game
+In badminton, you need to quickly assess your opponent's weaknesses and adapt your strategy mid-game. This translates to:
+- Understanding system bottlenecks
+- Adapting to changing requirements
+- Making quick technical decisions under pressure
+
+### Risk Assessment
+Every shot in badminton involves risk vs. reward calculations. In engineering:
+- Choosing between different technical approaches
+- Balancing feature complexity with delivery timelines
+- Deciding when to refactor vs. when to ship
+
+## Team Dynamics and Communication
+
+### Doubles Partnership
+Playing doubles taught me the importance of:
+- Clear communication during high-pressure situations
+- Trust in your partner's abilities
+- Coordinated strategy execution
+
+These skills directly apply to:
+- Pair programming sessions
+- Sprint planning and execution
+- Cross-functional team collaboration
+
+## Discipline and Consistency
+
+### Daily Training Routine
+Professional sports require showing up every day, regardless of motivation. This discipline helps with:
+- Consistent coding practice
+- Regular learning and skill development
+- Maintaining code quality standards
+
+### Mental Resilience
+Sports teach you to bounce back from losses and setbacks. In engineering:
+- Debugging complex issues without getting frustrated
+- Learning from failed deployments
+- Staying motivated during challenging projects
+
+## The Competitive Edge
+
+The competitive spirit from sports drives me to:
+- Continuously improve my technical skills
+- Stay updated with industry trends
+- Strive for excellence in code quality
+
+Professional sports gave me a framework for high performance that I now apply to software engineering. The discipline, strategic thinking, and resilience developed on the badminton court serve me well in the world of code.
     `,
+    tags: ["Sports", "Engineering", "Mindset", "Performance"],
   },
   "servicenow-platform-insights": {
     title: "Building on the ServiceNow Platform: A Developer's Perspective",
     date: "2024-01-05",
-    readTime: "6 min read",
     content: `
-      <p>Working as a software engineer at ServiceNow has given me deep insights into platform development and the unique challenges and opportunities it presents.</p>
-      
-      <h2>Understanding the Platform Approach</h2>
-      <p>ServiceNow isn't just a software company—it's a platform that enables organizations to digitize their workflows. This platform approach means thinking beyond individual applications to consider how different systems integrate and work together.</p>
-      
-      <h2>Key Development Principles</h2>
-      <p>Several principles guide effective development on the ServiceNow platform:</p>
-      
-      <h3>Configuration Over Customization</h3>
-      <p>Whenever possible, use out-of-the-box functionality and configuration options rather than custom code. This ensures easier upgrades and better maintainability.</p>
-      
-      <h3>Understand the Data Model</h3>
-      <p>ServiceNow's power lies in its robust data model. Understanding table relationships, inheritance, and data flow is crucial for building effective applications.</p>
-      
-      <h3>Leverage Platform Features</h3>
-      <p>The platform provides powerful features like workflow automation, reporting, and integration capabilities. Learning to leverage these effectively can save significant development time.</p>
-      
-      <h2>Best Practices I've Learned</h2>
-      <ul>
-        <li><strong>Start with requirements:</strong> Understand the business process before jumping into technical implementation</li>
-        <li><strong>Think in terms of workflows:</strong> ServiceNow excels at workflow automation—design with this in mind</li>
-        <li><strong>Plan for integration:</strong> Most ServiceNow implementations involve integrating with other systems</li>
-        <li><strong>Consider the user experience:</strong> The platform provides many UX options—choose the right one for your users</li>
-      </ul>
-      
-      <h2>The Future of Platform Development</h2>
-      <p>Platform development is evolving rapidly, with increased focus on low-code/no-code solutions, AI integration, and mobile-first experiences. Staying current with these trends while maintaining solid fundamentals is key to success.</p>
+# Building on the ServiceNow Platform: A Developer's Perspective
+
+Working at ServiceNow has given me deep insights into enterprise platform development. Here are some key learnings and best practices I've discovered while building on the ServiceNow platform.
+
+## Understanding the Platform Architecture
+
+### The Power of Configuration Over Customization
+ServiceNow's strength lies in its configuration-first approach:
+- Use out-of-the-box functionality whenever possible
+- Leverage platform features like workflows and business rules
+- Custom code should be the last resort, not the first
+
+### Data Model Design
+The platform's table structure is fundamental:
+- Extend existing tables when possible
+- Design with reporting and performance in mind
+- Consider data relationships early in the design process
+
+## Development Best Practices
+
+### Script Performance
+- Avoid unnecessary database queries in loops
+- Use GlideRecord efficiently with proper query conditions
+- Leverage server-side includes for reusable code
+
+### User Experience
+- Design with the end user in mind
+- Use platform UI components for consistency
+- Test across different form factors and browsers
+
+### Security Considerations
+- Follow the principle of least privilege
+- Use ACLs (Access Control Lists) appropriately
+- Validate all user inputs
+
+## Integration Patterns
+
+### REST API Development
+- Design RESTful endpoints following platform conventions
+- Implement proper error handling and status codes
+- Document APIs thoroughly for consumers
+
+### External System Integration
+- Use MID Server for secure on-premise connections
+- Implement retry logic for external API calls
+- Monitor integration health and performance
+
+## Testing and Quality Assurance
+
+### Automated Testing
+- Write unit tests for business logic
+- Use ATF (Automated Test Framework) for UI testing
+- Implement continuous integration practices
+
+### Performance Testing
+- Test with realistic data volumes
+- Monitor system performance metrics
+- Optimize queries and scripts based on results
+
+## Deployment and Change Management
+
+### Update Set Management
+- Keep update sets focused and atomic
+- Test thoroughly in sub-production environments
+- Document changes and rollback procedures
+
+### Version Control
+- Use external version control for custom applications
+- Maintain clear branching strategies
+- Implement code review processes
+
+## Key Takeaways
+
+1. **Platform-First Thinking**: Always explore platform capabilities before building custom solutions
+2. **Performance Matters**: Enterprise platforms serve thousands of users - optimize accordingly
+3. **User-Centric Design**: The best technical solution is worthless if users can't or won't use it
+4. **Continuous Learning**: The platform evolves rapidly - stay updated with new features and best practices
+
+Building on enterprise platforms like ServiceNow requires a different mindset than traditional application development. Success comes from understanding and leveraging the platform's strengths while following established patterns and best practices.
     `,
+    tags: ["ServiceNow", "Platform", "Development", "Enterprise"],
   },
 }
 
-// This function tells Next.js which dynamic routes to pre-generate
 export async function generateStaticParams() {
   return [
     { slug: "transitioning-from-sales-to-engineering" },
@@ -99,13 +216,9 @@ export async function generateStaticParams() {
 }
 
 export default function BlogPostPage({ params }: { params: { slug: string } }) {
-  const validSlugs = [
-    "transitioning-from-sales-to-engineering",
-    "lessons-from-professional-badminton",
-    "servicenow-platform-insights",
-  ]
+  const post = blogPosts[params.slug as keyof typeof blogPosts]
 
-  if (!validSlugs.includes(params.slug)) {
+  if (!post) {
     notFound()
   }
 
@@ -113,7 +226,7 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
     <div className="min-h-screen bg-gray-900 text-white">
       <Header />
       <main className="pt-20">
-        <BlogPost slug={params.slug} />
+        <BlogPost post={post} />
       </main>
     </div>
   )

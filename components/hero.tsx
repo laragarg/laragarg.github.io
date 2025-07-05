@@ -18,8 +18,8 @@ export function Hero() {
             Software Engineer at ServiceNow | Former Sales Professional | Professional Badminton Player
           </p>
           <p className="text-lg text-gray-400 mb-12 max-w-2xl mx-auto">
-            Bridging the gap between technical excellence and business acumen, with a competitive spirit forged on the
-            badminton court.
+            Bridging the gap between technical excellence and business understanding, with the discipline and
+            competitive spirit of professional sports.
           </p>
         </div>
 

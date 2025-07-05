@@ -9,7 +9,9 @@ export default function BlogPage() {
         <div className="max-w-6xl mx-auto px-4 py-12">
           <h1 className="text-4xl font-bold mb-8">Blog</h1>
           <p className="text-xl text-gray-300 mb-12 max-w-3xl">
-            Thoughts on software engineering, career transitions, and lessons learned from professional sports.
+            Sharing insights from my journey through professional sports, sales, and software engineering. Here you'll
+            find thoughts on career transitions, technical learnings, and the intersection of discipline and
+            development.
           </p>
           <BlogList />
         </div>
