@@ -1,67 +1,71 @@
+import Link from "next/link"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
-import { Calendar, Clock } from "lucide-react"
-import Link from "next/link"
+import { Button } from "@/components/ui/button"
+import { Calendar, ArrowRight } from "lucide-react"
 
-export default function BlogList() {
-  const blogPosts = [
+export function BlogList() {
+  const posts = [
     {
+      slug: "transitioning-from-sales-to-engineering",
       title: "Transitioning from Sales to Software Engineering",
-      excerpt:
-        "My journey from understanding client needs to building technical solutions, and how sales experience enhances my engineering approach. Learn about the transferable skills and mindset shifts that made this transition successful.",
       date: "2024-12-15",
-      readTime: "8 min read",
-      slug: "sales-to-engineering-transition",
-      tags: ["Career", "Engineering", "Sales", "Transition"],
+      excerpt:
+        "Making the transition from sales to software engineering has been one of the most challenging yet rewarding experiences of my career. Here's what I learned along the way.",
+      tags: ["Career", "Software Engineering", "Sales"],
     },
     {
+      slug: "lessons-from-professional-badminton",
       title: "Lessons from Professional Badminton That Apply to Software Engineering",
-      excerpt:
-        "How the mental discipline, strategic thinking, and performance optimization from competitive sports translate to writing better code. Discover the surprising parallels between athletic excellence and software craftsmanship.",
       date: "2024-12-10",
-      readTime: "6 min read",
-      slug: "badminton-lessons-for-engineers",
-      tags: ["Sports", "Engineering", "Mindset", "Performance"],
+      excerpt:
+        "My years playing professional badminton taught me invaluable lessons that I apply daily in my software engineering career.",
+      tags: ["Sports", "Career", "Mindset"],
     },
     {
+      slug: "servicenow-platform-insights",
       title: "Building on the ServiceNow Platform: A Developer's Perspective",
-      excerpt:
-        "Insights into ServiceNow development, best practices, and how to leverage the platform's capabilities for enterprise solutions. A comprehensive guide for developers new to the ServiceNow ecosystem.",
       date: "2024-12-05",
-      readTime: "12 min read",
-      slug: "servicenow-development-insights",
-      tags: ["ServiceNow", "Development", "Enterprise", "Platform"],
+      excerpt:
+        "Working at ServiceNow has given me unique insights into enterprise software development and the power of low-code/no-code platforms.",
+      tags: ["ServiceNow", "Enterprise Software", "Platform Development"],
     },
   ]
 
   return (
     <div className="space-y-8">
-      {blogPosts.map((post, index) => (
-        <Card key={index} className="bg-gray-800 border-gray-700 hover:border-gray-600 transition-colors">
+      {posts.map((post) => (
+        <Card key={post.slug} className="bg-gray-800 border-gray-700 hover:border-gray-600 transition-colors">
           <CardHeader>
-            <div className="flex items-center text-sm text-gray-400 mb-2 space-x-4">
-              <div className="flex items-center">
-                <Calendar className="h-4 w-4 mr-1" />
-                {new Date(post.date).toLocaleDateString()}
-              </div>
-              <div className="flex items-center">
-                <Clock className="h-4 w-4 mr-1" />
-                {post.readTime}
-              </div>
+            <div className="flex items-center gap-2 text-gray-400 text-sm mb-2">
+              <Calendar className="w-4 h-4" />
+              {new Date(post.date).toLocaleDateString("en-US", {
+                year: "numeric",
+                month: "long",
+                day: "numeric",
+              })}
             </div>
-            <CardTitle className="text-2xl hover:text-blue-400 transition-colors">
-              <Link href={`/blog/${post.slug}`}>{post.title}</Link>
+            <CardTitle className="text-white text-2xl">
+              <Link href={`/blog/${post.slug}`} className="hover:text-gray-300 transition-colors">
+                {post.title}
+              </Link>
             </CardTitle>
           </CardHeader>
           <CardContent>
-            <p className="text-gray-300 mb-4 text-lg leading-relaxed">{post.excerpt}</p>
-            <div className="flex flex-wrap gap-2">
-              {post.tags.map((tag, tagIndex) => (
-                <Badge key={tagIndex} variant="secondary" className="bg-gray-700 text-gray-300">
+            <p className="text-gray-300 mb-4 leading-relaxed">{post.excerpt}</p>
+            <div className="flex flex-wrap gap-2 mb-4">
+              {post.tags.map((tag) => (
+                <Badge key={tag} variant="secondary" className="bg-gray-700 text-gray-300">
                   {tag}
                 </Badge>
               ))}
             </div>
+            <Link href={`/blog/${post.slug}`}>
+              <Button variant="ghost" className="text-gray-400 hover:text-white p-0">
+                Read Full Post
+                <ArrowRight className="w-4 h-4 ml-2" />
+              </Button>
+            </Link>
           </CardContent>
         </Card>
       ))}
