@@ -8,9 +8,9 @@ export default function BlogPage() {
       <main className="pt-20">
         <div className="container mx-auto px-4 py-16">
           <div className="max-w-4xl mx-auto">
-            <h1 className="text-4xl font-bold text-white mb-8 text-center">Blog</h1>
-            <p className="text-xl text-gray-300 mb-12 text-center">
-              Insights from my journey across sports, sales, and software engineering
+            <h1 className="text-4xl md:text-5xl font-bold text-white mb-8">Blog</h1>
+            <p className="text-xl text-gray-300 mb-12">
+              Thoughts on software engineering, career transitions, and lessons from professional sports.
             </p>
             <BlogList />
           </div>
