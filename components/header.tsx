@@ -1,35 +1,60 @@
-import Link from "next/link"
-import { Code, Home, FileText, User } from "lucide-react"
+"use client"
 
-export function Header() {
+import { useState } from "react"
+import { Button } from "@/components/ui/button"
+import { Menu, X } from "lucide-react"
+
+export default function Header() {
+  const [isMenuOpen, setIsMenuOpen] = useState(false)
+
   return (
-    <header className="bg-gray-800 border-b border-gray-700">
-      <nav className="container mx-auto px-4 py-4">
+    <header className="fixed top-0 w-full bg-gray-900/95 backdrop-blur-sm border-b border-gray-800 z-50">
+      <div className="max-w-6xl mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
-          <Link href="/" className="flex items-center space-x-2 text-white hover:text-blue-400 transition-colors">
-            <Code className="h-6 w-6" />
-            <span className="font-bold text-xl">Your Name</span>
-          </Link>
+          <div className="text-xl font-bold">Your Name</div>
 
-          <div className="flex items-center space-x-6">
-            <Link href="/" className="flex items-center space-x-1 text-gray-300 hover:text-white transition-colors">
-              <Home className="h-4 w-4" />
-              <span>Home</span>
-            </Link>
-            <Link href="/blog" className="flex items-center space-x-1 text-gray-300 hover:text-white transition-colors">
-              <FileText className="h-4 w-4" />
-              <span>Blog</span>
-            </Link>
-            <Link
-              href="#about"
-              className="flex items-center space-x-1 text-gray-300 hover:text-white transition-colors"
-            >
-              <User className="h-4 w-4" />
-              <span>About</span>
-            </Link>
-          </div>
+          {/* Desktop Navigation */}
+          <nav className="hidden md:flex items-center space-x-8">
+            <a href="#about" className="text-gray-300 hover:text-white transition-colors">
+              About
+            </a>
+            <a href="#experience" className="text-gray-300 hover:text-white transition-colors">
+              Experience
+            </a>
+            <a href="/blog" className="text-gray-300 hover:text-white transition-colors">
+              Blog
+            </a>
+            <a href="#contact" className="text-gray-300 hover:text-white transition-colors">
+              Contact
+            </a>
+          </nav>
+
+          {/* Mobile Menu Button */}
+          <Button variant="ghost" size="sm" className="md:hidden" onClick={() => setIsMenuOpen(!isMenuOpen)}>
+            {isMenuOpen ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
+          </Button>
         </div>
-      </nav>
+
+        {/* Mobile Navigation */}
+        {isMenuOpen && (
+          <nav className="md:hidden mt-4 pb-4 border-t border-gray-800 pt-4">
+            <div className="flex flex-col space-y-4">
+              <a href="#about" className="text-gray-300 hover:text-white transition-colors">
+                About
+              </a>
+              <a href="#experience" className="text-gray-300 hover:text-white transition-colors">
+                Experience
+              </a>
+              <a href="/blog" className="text-gray-300 hover:text-white transition-colors">
+                Blog
+              </a>
+              <a href="#contact" className="text-gray-300 hover:text-white transition-colors">
+                Contact
+              </a>
+            </div>
+          </nav>
+        )}
+      </div>
     </header>
   )
 }

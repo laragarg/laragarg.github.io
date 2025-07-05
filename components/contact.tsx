@@ -1,64 +1,63 @@
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
+import { Card, CardContent } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
-import { Mail, Github, Linkedin, MapPin } from "lucide-react"
+import { Mail, Linkedin, Github, Twitter } from "lucide-react"
 
-export function Contact() {
+export default function Contact() {
   return (
-    <section className="py-20 bg-gray-900">
-      <div className="container mx-auto px-4">
-        <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-4xl font-bold text-white mb-8">Let's Connect</h2>
-          <p className="text-xl text-gray-300 mb-12">
-            I'm always interested in discussing technology, career transitions, or sports. Feel free to reach out!
-          </p>
+    <section id="contact" className="py-20 px-4 bg-gray-800/50">
+      <div className="max-w-4xl mx-auto text-center">
+        <h2 className="text-4xl font-bold mb-8">Let's Connect</h2>
+        <p className="text-xl text-gray-300 mb-12">
+          I'm always interested in discussing new opportunities, sharing insights about software engineering, or talking
+          about the intersection of sports and technology.
+        </p>
 
-          <div className="grid md:grid-cols-2 gap-8 mb-12">
-            <Card className="bg-gray-800 border-gray-700">
-              <CardHeader>
-                <CardTitle className="text-white flex items-center justify-center">
-                  <Mail className="h-5 w-5 mr-2" />
-                  Email
-                </CardTitle>
-              </CardHeader>
-              <CardContent>
-                <p className="text-gray-300 mb-4">your.email@example.com</p>
-                <Button asChild className="bg-blue-600 hover:bg-blue-700">
-                  <a href="mailto:your.email@example.com">Send Email</a>
+        <Card className="bg-gray-800 border-gray-700 mb-8">
+          <CardContent className="p-8">
+            <div className="grid md:grid-cols-2 gap-8">
+              <div>
+                <h3 className="text-xl font-semibold mb-4">Get In Touch</h3>
+                <p className="text-gray-300 mb-6">
+                  Whether you want to discuss a project, share ideas, or just say hello, I'd love to hear from you.
+                </p>
+                <Button className="bg-blue-600 hover:bg-blue-700">
+                  <Mail className="mr-2 h-4 w-4" />
+                  Send Email
                 </Button>
-              </CardContent>
-            </Card>
+              </div>
 
-            <Card className="bg-gray-800 border-gray-700">
-              <CardHeader>
-                <CardTitle className="text-white flex items-center justify-center">
-                  <MapPin className="h-5 w-5 mr-2" />
-                  Location
-                </CardTitle>
-              </CardHeader>
-              <CardContent>
-                <p className="text-gray-300 mb-4">Your City, Country</p>
-                <p className="text-sm text-gray-400">Open to remote opportunities</p>
-              </CardContent>
-            </Card>
-          </div>
-
-          <div className="flex items-center justify-center space-x-6">
-            <a
-              href="https://github.com"
-              className="flex items-center space-x-2 text-gray-300 hover:text-white transition-colors"
-            >
-              <Github className="h-6 w-6" />
-              <span>GitHub</span>
-            </a>
-            <a
-              href="https://linkedin.com"
-              className="flex items-center space-x-2 text-gray-300 hover:text-white transition-colors"
-            >
-              <Linkedin className="h-6 w-6" />
-              <span>LinkedIn</span>
-            </a>
-          </div>
-        </div>
+              <div>
+                <h3 className="text-xl font-semibold mb-4">Follow My Journey</h3>
+                <p className="text-gray-300 mb-6">
+                  Stay updated with my latest projects, blog posts, and insights from my unique career path.
+                </p>
+                <div className="flex justify-center space-x-4">
+                  <Button
+                    variant="outline"
+                    size="sm"
+                    className="border-gray-600 text-gray-300 hover:bg-gray-700 bg-transparent"
+                  >
+                    <Linkedin className="h-4 w-4" />
+                  </Button>
+                  <Button
+                    variant="outline"
+                    size="sm"
+                    className="border-gray-600 text-gray-300 hover:bg-gray-700 bg-transparent"
+                  >
+                    <Github className="h-4 w-4" />
+                  </Button>
+                  <Button
+                    variant="outline"
+                    size="sm"
+                    className="border-gray-600 text-gray-300 hover:bg-gray-700 bg-transparent"
+                  >
+                    <Twitter className="h-4 w-4" />
+                  </Button>
+                </div>
+              </div>
+            </div>
+          </CardContent>
+        </Card>
       </div>
     </section>
   )

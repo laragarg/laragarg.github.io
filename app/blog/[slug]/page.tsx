@@ -1,6 +1,12 @@
 import { Header } from "@/components/header"
 import { BlogPost } from "@/components/blog-post"
 
+interface BlogPostPageProps {
+  params: {
+    slug: string
+  }
+}
+
 // This would typically come from a CMS or markdown files
 const getBlogPost = (slug: string) => {
   const posts = {
@@ -72,27 +78,13 @@ const getBlogPost = (slug: string) => {
   return posts[slug as keyof typeof posts] || null
 }
 
-export default function BlogPostPage({ params }: { params: { slug: string } }) {
-  const post = getBlogPost(params.slug)
-
-  if (!post) {
-    return (
-      <div className="min-h-screen bg-gray-900">
-        <Header />
-        <main className="container mx-auto px-4 py-16">
-          <div className="max-w-4xl mx-auto text-center">
-            <h1 className="text-4xl font-bold text-white mb-4">Post Not Found</h1>
-            <p className="text-gray-300">The blog post you're looking for doesn't exist.</p>
-          </div>
-        </main>
-      </div>
-    )
-  }
-
+export default function BlogPostPage({ params }: BlogPostPageProps) {
   return (
-    <div className="min-h-screen bg-gray-900">
+    <div className="min-h-screen bg-gray-900 text-white">
       <Header />
-      <BlogPost post={post} />
+      <main className="pt-20">
+        <BlogPost slug={params.slug} />
+      </main>
     </div>
   )
 }
