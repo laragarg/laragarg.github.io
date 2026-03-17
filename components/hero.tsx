@@ -10,7 +10,7 @@ export function Hero() {
         <div className="mb-8">
           <div className="w-32 h-32 mx-auto mb-6 rounded-full overflow-hidden border-4 border-blue-600">
             <Image
-              src="/IMG_2268.jpeg"
+              src="/Lara.jpg"
               alt="Lara Garg"
               width={128}
               height={128}
