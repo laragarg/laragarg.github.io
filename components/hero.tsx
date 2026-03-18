@@ -37,7 +37,7 @@ export function Hero() {
                 alt="Lara Garg"
                 width={224}
                 height={224}
-                className="w-full h-[100%] object-cover object-center"
+                className="w-full h-[100%] object-cover object-center -translate-y-[25%]"
                 priority
               />
             </div>
