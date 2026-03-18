@@ -8,12 +8,12 @@ export function Hero() {
     <section className="min-h-screen flex items-center justify-center px-4 pt-20">
       <div className="max-w-4xl mx-auto text-center">
         <div className="mb-8">
-          <div className="w-32 h-32 mx-auto mb-6 rounded-full overflow-hidden">
+          <div className="w-56 h-56 mx-auto mb-6 rounded-full overflow-hidden">
             <Image
               src="/Lara.jpg"
               alt="Lara Garg"
-              width={128}
-              height={128}
+              width={224}
+              height={224}
               className="w-full h-full object-cover"
               priority
             />
