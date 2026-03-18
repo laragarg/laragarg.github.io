@@ -1,14 +1,22 @@
 import { Button } from "@/components/ui/button"
 import { ArrowRight } from "lucide-react"
 import Link from "next/link"
+import Image from "next/image"
 
 export function Hero() {
   return (
     <section className="min-h-screen flex items-center justify-center px-4 pt-20">
       <div className="max-w-4xl mx-auto text-center">
         <div className="mb-8">
-          <div className="w-32 h-32 mx-auto mb-6 rounded-full bg-gradient-to-br from-blue-500 to-purple-600 flex items-center justify-center">
-            <span className="text-4xl font-bold text-white">LG</span>
+          <div className="w-32 h-32 mx-auto mb-6 rounded-full overflow-hidden">
+            <Image
+              src="/Lara.jpg"
+              alt="Lara Garg"
+              width={128}
+              height={128}
+              className="w-full h-full object-cover"
+              priority
+            />
           </div>
         </div>
 
