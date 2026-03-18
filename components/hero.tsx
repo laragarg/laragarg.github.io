@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button"
-import { ArrowRight, Code, Users, Trophy } from "lucide-react"
+import { ArrowDown, Code, Users, Trophy } from "lucide-react"
 import Link from "next/link"
 import Image from "next/image"
 import { Card, CardContent } from "@/components/ui/card"
@@ -44,23 +44,22 @@ export function Hero() {
               </div>
             </div>
 
-            <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-white to-gray-300 bg-clip-text text-transparent">
+            <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold mb-6 bg-gradient-to-r from-white to-gray-300 bg-clip-text text-transparent break-words">
               Lara Garg
             </h1>
 
             <p className="text-xl md:text-2xl text-gray-300 mb-8 leading-relaxed">
-              Software Engineer at ServiceNow with a unique journey from professional badminton to sales to tech. Building
-              enterprise solutions and sharing insights from a diverse career path.
+              Welcome To My World
             </p>
 
             <div className="flex justify-center lg:justify-start">
-              <Link href="/blog">
+              <Link href="#recent-blogs">
                 <Button
                   size="lg"
                   className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 text-lg"
                 >
-                  Read My Blog
-                  <ArrowRight className="ml-2 h-5 w-5" />
+                  Read My Recent Blogs
+                  <ArrowDown className="ml-2 h-5 w-5" />
                 </Button>
               </Link>
             </div>
