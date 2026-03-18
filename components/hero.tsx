@@ -31,13 +31,13 @@ export function Hero() {
         <div className="grid lg:grid-cols-2 gap-12 items-start">
           {/* Left Column - Hero Content */}
           <div className="text-center lg:text-left">
-            <div className="w-56 h-56 mx-auto lg:mx-0 mb-8 rounded-full overflow-hidden bg-gray-800">
+            <div className="w-56 h-56 mx-auto lg:mx-0 mb-8 rounded-full overflow-hidden">
               <Image
                 src="/Lara.jpg"
                 alt="Lara Garg"
                 width={224}
                 height={224}
-                className="w-full h-full object-contain"
+                className="w-full h-full object-cover"
                 priority
               />
             </div>
