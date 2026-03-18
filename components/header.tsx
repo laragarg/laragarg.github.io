@@ -1,12 +1,19 @@
 "use client"
 
 import { useState } from "react"
+import { usePathname } from "next/navigation"
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { Menu, X } from "lucide-react"
 
 export function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
+  const pathname = usePathname()
+
+  // Hide header on home page
+  if (pathname === "/") {
+    return null
+  }
 
   const navigation = [
     { name: "Home", href: "/" },

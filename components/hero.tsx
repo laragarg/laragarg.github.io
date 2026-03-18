@@ -28,20 +28,18 @@ export function Hero() {
   return (
     <section id="about" className="min-h-screen flex items-center justify-center px-4 pt-20">
       <div className="max-w-7xl mx-auto w-full">
-        <div className="grid lg:grid-cols-2 gap-12 items-center">
+        <div className="grid lg:grid-cols-2 gap-12 items-start">
           {/* Left Column - Hero Content */}
           <div className="text-center lg:text-left">
-            <div className="mb-8">
-              <div className="w-56 h-56 mx-auto lg:mx-0 mb-6 rounded-full overflow-hidden">
-                <Image
-                  src="/Lara.jpg"
-                  alt="Lara Garg"
-                  width={224}
-                  height={224}
-                  className="w-full h-full object-cover"
-                  priority
-                />
-              </div>
+            <div className="w-56 h-56 mx-auto lg:mx-0 mb-8 rounded-full overflow-hidden">
+              <Image
+                src="/Lara.jpg"
+                alt="Lara Garg"
+                width={224}
+                height={224}
+                className="w-full h-full object-cover"
+                priority
+              />
             </div>
 
             <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold mb-6 bg-gradient-to-r from-white to-gray-300 bg-clip-text text-transparent break-words">
@@ -67,7 +65,7 @@ export function Hero() {
 
           {/* Right Column - About Me */}
           <div>
-            <h2 className="text-4xl font-bold mb-8 text-center lg:text-left">About Me</h2>
+            <h2 className="text-4xl font-bold mb-8 text-center lg:text-left mt-0">About Me</h2>
             <p className="text-lg text-gray-300 mb-8 leading-relaxed">
               I'm a software engineer with a unique background spanning professional sports, sales, and technology. This
               diverse experience gives me a distinctive perspective on problem-solving, team collaboration, and
