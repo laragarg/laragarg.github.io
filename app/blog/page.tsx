@@ -1,5 +1,6 @@
 import { Header } from "@/components/header"
 import { BlogList } from "@/components/blog-list"
+import { Contact } from "@/components/contact"
 
 export default function BlogPage() {
   return (
@@ -7,6 +8,7 @@ export default function BlogPage() {
       <Header />
       <main className="pt-20">
         <BlogList />
+        <Contact />
       </main>
     </div>
   )

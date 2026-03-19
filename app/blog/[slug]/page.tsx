@@ -1,5 +1,6 @@
 import { Header } from "@/components/header"
 import { BlogPost } from "@/components/blog-post"
+import { Contact } from "@/components/contact"
 import { notFound } from "next/navigation"
 
 const blogPosts = {
@@ -262,6 +263,7 @@ export default function BlogPage({ params }: BlogPageProps) {
       <Header />
       <main className="pt-20">
         <BlogPost post={post} />
+        <Contact />
       </main>
     </div>
   )
