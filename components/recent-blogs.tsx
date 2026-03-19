@@ -36,10 +36,7 @@ export function RecentBlogs() {
     <section id="recent-blogs" className="py-20 px-4 bg-gray-800/30">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold mb-4">Recent Blog Posts</h2>
-          <p className="text-xl text-gray-300 max-w-2xl mx-auto">
-            Sharing insights from my journey across sports, sales, and software engineering
-          </p>
+          <h2 className="text-4xl font-bold mb-4">Welcome To My World</h2>
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">

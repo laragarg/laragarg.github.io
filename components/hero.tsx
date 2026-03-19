@@ -26,11 +26,11 @@ export function Hero() {
   ]
 
   return (
-    <section id="about" className="min-h-screen flex items-center justify-center px-4 pt-8">
+    <section id="about" className="min-h-screen flex items-center justify-center px-4 pt-2">
       <div className="max-w-7xl mx-auto w-full">
-        <div className="grid lg:grid-cols-2 gap-12 items-start">
+        <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Left Column - Hero Content */}
-          <div className="text-center lg:text-left">
+          <div className="text-center lg:text-left flex flex-col items-center lg:items-start justify-center">
             <div className="w-56 h-56 mx-auto lg:mx-0 mb-8 rounded-full overflow-hidden">
               <Image
                 src="/Lara.png"
@@ -42,13 +42,9 @@ export function Hero() {
               />
             </div>
 
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 pb-1 bg-gradient-to-r from-white to-gray-300 bg-clip-text text-transparent break-words">
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-8 pb-1 bg-gradient-to-r from-white to-gray-300 bg-clip-text text-transparent break-words">
               Lara Garg
             </h1>
-
-            <p className="text-xl md:text-2xl text-gray-300 mb-8 leading-relaxed">
-              Welcome To My World
-            </p>
 
             <div className="flex justify-center lg:justify-start">
               <Link href="#recent-blogs">
@@ -64,7 +60,7 @@ export function Hero() {
           </div>
 
           {/* Right Column - About Me */}
-          <div>
+          <div className="flex flex-col items-center justify-center">
             <h2 className="text-4xl font-bold mb-8 text-center lg:text-left mt-0">About Me</h2>
             <p className="text-lg text-gray-300 mb-8 leading-relaxed">
               I'm a software engineer with a unique background spanning professional sports, sales, and technology. This
