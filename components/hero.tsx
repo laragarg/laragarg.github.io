@@ -28,7 +28,7 @@ export function Hero() {
   return (
     <section id="about" className="min-h-screen flex items-center justify-center px-4 pt-2">
       <div className="max-w-7xl mx-auto w-full">
-        <div className="grid lg:grid-cols-2 gap-12 items-start">
+        <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Left Column - Hero Content */}
           <div className="text-center lg:text-left flex flex-col items-center lg:items-start">
             <div className="mx-auto lg:mx-0 mb-8 max-w-xs">
@@ -41,10 +41,6 @@ export function Hero() {
                 priority
               />
             </div>
-
-            <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-8 pb-1 bg-gradient-to-r from-white to-gray-300 bg-clip-text text-transparent break-words">
-              Lara Garg
-            </h1>
 
             <div className="flex justify-center lg:justify-start">
               <Link href="#recent-blogs">
