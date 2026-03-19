@@ -31,13 +31,13 @@ export function Hero() {
         <div className="grid lg:grid-cols-2 gap-12 items-start">
           {/* Left Column - Hero Content */}
           <div className="text-center lg:text-left flex flex-col items-center lg:items-start">
-            <div className="mx-auto lg:mx-0 mb-8">
+            <div className="mx-auto lg:mx-0 mb-8 max-w-xs">
               <Image
                 src="/Lara.jpg"
                 alt="Lara Garg"
                 width={400}
                 height={600}
-                className="w-auto h-auto max-w-full"
+                className="w-full h-auto"
                 priority
               />
             </div>
@@ -60,8 +60,8 @@ export function Hero() {
           </div>
 
           {/* Right Column - About Me */}
-          <div>
-            <h2 className="text-4xl font-bold mb-8 text-center lg:text-left">About Me</h2>
+          <div className="flex flex-col items-center justify-center">
+            <h2 className="text-4xl font-bold mb-8 text-center">About Me</h2>
             <p className="text-lg text-gray-300 mb-8 leading-relaxed">
               I'm a software engineer with a unique background spanning professional sports, sales, and technology. This
               diverse experience gives me a distinctive perspective on problem-solving, team collaboration, and
