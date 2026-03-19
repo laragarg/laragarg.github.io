@@ -28,21 +28,21 @@ export function Hero() {
   return (
     <section id="about" className="min-h-screen flex items-center justify-center px-4 pt-2">
       <div className="max-w-7xl mx-auto w-full">
-        <div className="grid lg:grid-cols-2 gap-12 items-center">
+        <div className="grid lg:grid-cols-2 gap-12 items-start">
           {/* Left Column - Hero Content */}
-          <div className="text-center lg:text-left flex flex-col items-center lg:items-start justify-center">
-            <div className="w-56 h-56 mx-auto lg:mx-0 mb-8 rounded-full overflow-hidden">
+          <div className="text-center lg:text-left flex flex-col items-center lg:items-start">
+            <div className="mx-auto lg:mx-0 mb-8">
               <Image
-                src="/Lara.png"
+                src="/Lara.jpg"
                 alt="Lara Garg"
-                width={224}
-                height={224}
-                className="w-full h-full object-cover"
+                width={400}
+                height={600}
+                className="w-auto h-auto max-w-full"
                 priority
               />
             </div>
 
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-8 pb-1 bg-gradient-to-r from-white to-gray-300 bg-clip-text text-transparent break-words">
+            <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-8 pb-1 bg-gradient-to-r from-white to-gray-300 bg-clip-text text-transparent break-words">
               Lara Garg
             </h1>
 
@@ -60,8 +60,8 @@ export function Hero() {
           </div>
 
           {/* Right Column - About Me */}
-          <div className="flex flex-col items-center justify-center">
-            <h2 className="text-4xl font-bold mb-8 text-center lg:text-left mt-0">About Me</h2>
+          <div>
+            <h2 className="text-4xl font-bold mb-8 text-center lg:text-left">About Me</h2>
             <p className="text-lg text-gray-300 mb-8 leading-relaxed">
               I'm a software engineer with a unique background spanning professional sports, sales, and technology. This
               diverse experience gives me a distinctive perspective on problem-solving, team collaboration, and
