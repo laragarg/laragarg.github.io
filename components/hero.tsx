@@ -56,15 +56,15 @@ export function Hero() {
           </div>
 
           {/* Right Column - About Me */}
-          <div className="flex flex-col items-center justify-center">
+          <div className="flex flex-col items-center justify-center w-full">
             <h2 className="text-4xl font-bold mb-8 text-center">About Me</h2>
-            <p className="text-lg text-gray-300 mb-8 leading-relaxed">
+            <p className="text-lg text-gray-300 mb-8 leading-relaxed text-center max-w-xl">
               I'm a software engineer with a unique background spanning professional sports, sales, and technology. This
               diverse experience gives me a distinctive perspective on problem-solving, team collaboration, and
               performance optimization.
             </p>
 
-            <div className="space-y-6">
+            <div className="space-y-6 w-full max-w-xl">
               {highlights.map((item, index) => {
                 const IconComponent = item.icon
                 return (
