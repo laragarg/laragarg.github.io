@@ -33,11 +33,11 @@ export function Hero() {
           <div className="text-center lg:text-left">
             <div className="w-56 h-56 mx-auto lg:mx-0 mb-8 rounded-full overflow-hidden">
               <Image
-                src="/Lara.jpg"
+                src="/Lara.png"
                 alt="Lara Garg"
                 width={224}
                 height={224}
-                className="w-full h-full object-cover object-[center_30%]"
+                className="w-full h-full object-cover"
                 priority
               />
             </div>
