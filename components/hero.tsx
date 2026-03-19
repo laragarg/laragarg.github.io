@@ -26,7 +26,7 @@ export function Hero() {
   ]
 
   return (
-    <section id="about" className="min-h-screen flex items-center justify-center px-4 pt-20">
+    <section id="about" className="min-h-screen flex items-center justify-center px-4 pt-8">
       <div className="max-w-7xl mx-auto w-full">
         <div className="grid lg:grid-cols-2 gap-12 items-start">
           {/* Left Column - Hero Content */}
@@ -42,7 +42,7 @@ export function Hero() {
               />
             </div>
 
-            <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold mb-6 bg-gradient-to-r from-white to-gray-300 bg-clip-text text-transparent break-words">
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 pb-1 bg-gradient-to-r from-white to-gray-300 bg-clip-text text-transparent break-words">
               Lara Garg
             </h1>
 
