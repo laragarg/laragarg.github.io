@@ -42,11 +42,11 @@ export function Hero() {
               />
             </div>
 
-            <div className="flex justify-center lg:justify-start">
-              <Link href="#recent-blogs">
+            <div className="w-full max-w-xs mx-auto lg:mx-0">
+              <Link href="#recent-blogs" className="block">
                 <Button
                   size="lg"
-                  className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 text-lg"
+                  className="w-full bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 text-lg"
                 >
                   Read My Recent Blogs
                   <ArrowDown className="ml-2 h-5 w-5" />
@@ -57,14 +57,15 @@ export function Hero() {
 
           {/* Right Column - About Me */}
           <div className="flex flex-col items-center justify-center w-full">
-            <h2 className="text-4xl font-bold mb-8 text-center">About Me</h2>
-            <p className="text-lg text-gray-300 mb-8 leading-relaxed text-center max-w-xl">
-              I'm a software engineer with a unique background spanning professional sports, sales, and technology. This
-              diverse experience gives me a distinctive perspective on problem-solving, team collaboration, and
-              performance optimization.
-            </p>
+            <div className="w-full max-w-xl">
+              <h2 className="text-4xl font-bold mb-8 text-center">About Me</h2>
+              <p className="text-lg text-gray-300 mb-8 leading-relaxed text-center">
+                I'm a software engineer with a unique background spanning professional sports, sales, and technology. This
+                diverse experience gives me a distinctive perspective on problem-solving, team collaboration, and
+                performance optimization.
+              </p>
 
-            <div className="space-y-6 w-full max-w-xl">
+              <div className="space-y-6">
               {highlights.map((item, index) => {
                 const IconComponent = item.icon
                 return (
@@ -83,6 +84,7 @@ export function Hero() {
                   </Card>
                 )
               })}
+              </div>
             </div>
           </div>
         </div>
