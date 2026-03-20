@@ -13,7 +13,7 @@ export function BlogList() {
         <h1 className="text-4xl md:text-5xl font-bold text-white mb-6">Blog</h1>
         <p className="text-xl text-gray-300 leading-relaxed">
           Thoughts on software engineering, career transitions, and lessons from professional sports. Sharing insights
-          from my unique journey across different fields and how they all connect.
+          from my journey across different fields and how they all connect.
         </p>
       </div>
 
