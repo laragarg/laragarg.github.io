@@ -26,7 +26,7 @@ export function Hero() {
   ]
 
   return (
-    <section id="about" className="min-h-screen flex items-center justify-center px-4 pt-24">
+    <section id="about" className="min-h-screen flex items-center justify-center px-4 pt-24 pb-16">
       <div className="max-w-7xl mx-auto w-full">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Left Column - Hero Content */}
