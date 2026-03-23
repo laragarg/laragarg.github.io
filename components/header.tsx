@@ -13,7 +13,7 @@ export function Header() {
         <div className="flex justify-center items-center py-4">
           {/* Logo */}
           <Link href="/" className="text-2xl font-bold text-white hover:text-gray-300 transition-colors">
-            Lara Garg
+            Lara Garg 🏠
           </Link>
         </div>
       </div>

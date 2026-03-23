@@ -17,7 +17,10 @@ export function BlogPost({ post }: BlogPostProps) {
   return (
     <article className="max-w-4xl mx-auto px-4 py-20">
       <Link href="/blog">
-        <Button variant="ghost" className="mb-8 text-gray-400 hover:text-white">
+        <Button
+          variant="outline"
+          className="mb-8 border-gray-600 text-white hover:bg-gray-800 bg-transparent"
+        >
           <ArrowLeft className="w-4 h-4 mr-2" />
           Back to Blog
         </Button>
