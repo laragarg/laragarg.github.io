@@ -14,7 +14,7 @@ export function RecentBlogs() {
       <div className="max-w-6xl mx-auto">
         <div className="flex flex-wrap gap-8 mb-12 justify-center">
           {recentPosts.map((post, index) => (
-            <Card key={index} className="bg-gray-800 border-gray-700 hover:border-gray-600 transition-colors">
+            <Card key={index} className="bg-gray-800 border-gray-700 hover:border-gray-600 transition-colors w-full max-w-sm">
               <CardHeader>
                 <div className="flex items-center gap-2 text-sm text-gray-400 mb-2">
                   <Calendar className="h-4 w-4" />
