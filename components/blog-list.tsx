@@ -10,7 +10,7 @@ export function BlogList() {
   return (
     <div className="max-w-4xl mx-auto px-4 py-16">
       <div className="mb-12">
-        <h1 className="text-4xl md:text-5xl font-bold text-white mb-6">Blog</h1>
+        <h1 className="text-4xl md:text-5xl font-bold text-white mb-6">Welcome To My World</h1>
         <p className="text-xl text-gray-300 leading-relaxed">
           Thoughts on software engineering, career transitions, and lessons from professional sports. Sharing insights
           from my journey across different fields and how they all connect.
@@ -55,7 +55,7 @@ export function BlogList() {
               </div>
               <Link href={`/blog/${post.slug}`}>
                 <div className="inline-flex items-center text-blue-400 hover:text-blue-300 transition-colors font-medium">
-                  Read Full Article
+                  Read Full Blog
                   <ArrowRight className="ml-2 h-4 w-4" />
                 </div>
               </Link>

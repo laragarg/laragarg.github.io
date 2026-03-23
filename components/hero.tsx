@@ -48,7 +48,7 @@ export function Hero() {
                   size="lg"
                   className="w-full bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 text-lg"
                 >
-                  Read My Recent Blogs
+                  Jump To My Recent Blogs
                   <ArrowDown className="ml-2 h-5 w-5" />
                 </Button>
               </Link>

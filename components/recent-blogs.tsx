@@ -3,42 +3,15 @@ import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
 import { Calendar, ArrowRight } from "lucide-react"
 import Link from "next/link"
+import { getAllBlogPosts } from "@/lib/blog-data"
 
 export function RecentBlogs() {
-  const recentPosts = [
-    {
-      title: "Transitioning from Sales to Software Engineering",
-      excerpt:
-        "My journey from sales professional to software engineer, including the challenges, learnings, and key strategies that made the transition successful.",
-      date: "2024-01-15",
-      slug: "transitioning-from-sales-to-engineering",
-      tags: ["Career", "Software Engineering", "Personal Growth"],
-    },
-    {
-      title: "Lessons from Professional Badminton That Apply to Software Engineering",
-      excerpt:
-        "How the mental discipline, strategic thinking, and performance optimization skills from professional sports translate directly to software development.",
-      date: "2024-01-10",
-      slug: "lessons-from-professional-badminton",
-      tags: ["Sports", "Software Engineering", "Mental Performance"],
-    },
-    {
-      title: "Building on the ServiceNow Platform: A Developer's Perspective",
-      excerpt:
-        "Insights into platform development at ServiceNow, including best practices, common challenges, and the unique aspects of enterprise software development.",
-      date: "2024-01-05",
-      slug: "servicenow-platform-insights",
-      tags: ["ServiceNow", "Platform Development", "Enterprise Software"],
-    },
-  ]
+  // Get recent blog posts from markdown files (limit to 3 for homepage)
+  const recentPosts = getAllBlogPosts().slice(0, 3)
 
   return (
     <section id="recent-blogs" className="py-20 px-4 bg-gray-800/30">
       <div className="max-w-6xl mx-auto">
-        <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold mb-4">Welcome To My World</h2>
-        </div>
-
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
           {recentPosts.map((post, index) => (
             <Card key={index} className="bg-gray-800 border-gray-700 hover:border-gray-600 transition-colors">
@@ -68,7 +41,7 @@ export function RecentBlogs() {
                 </div>
                 <Link href={`/blog/${post.slug}`}>
                   <Button variant="ghost" className="text-blue-400 hover:text-blue-300 p-0 h-auto">
-                    Read More
+                    Read Full Blog
                     <ArrowRight className="ml-1 h-4 w-4" />
                   </Button>
                 </Link>
@@ -84,7 +57,7 @@ export function RecentBlogs() {
               variant="outline"
               className="border-gray-600 text-white hover:bg-gray-800 px-8 py-3 text-lg bg-transparent"
             >
-              View All Posts
+              View All Blogs
               <ArrowRight className="ml-2 h-5 w-5" />
             </Button>
           </Link>
