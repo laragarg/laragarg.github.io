@@ -1,7 +1,5 @@
 import { Badge } from "@/components/ui/badge"
-import { Button } from "@/components/ui/button"
-import { Calendar, Clock, ArrowLeft } from "lucide-react"
-import Link from "next/link"
+import { Calendar, Clock } from "lucide-react"
 
 interface BlogPostProps {
   post: {
@@ -16,16 +14,6 @@ interface BlogPostProps {
 export function BlogPost({ post }: BlogPostProps) {
   return (
     <article className="max-w-4xl mx-auto px-4 py-20">
-      <Link href="/blog">
-        <Button
-          variant="outline"
-          className="mb-8 border-gray-600 text-white hover:bg-gray-800 bg-transparent"
-        >
-          <ArrowLeft className="w-4 h-4 mr-2" />
-          Back to Blog
-        </Button>
-      </Link>
-
       <header className="mb-12">
         <h1 className="text-4xl md:text-5xl font-bold mb-6">{post.title}</h1>
 
