@@ -12,7 +12,7 @@ export function RecentBlogs() {
   return (
     <section id="recent-blogs" className="py-20 px-4 bg-gray-800/30">
       <div className="max-w-6xl mx-auto">
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12 justify-items-center">
+        <div className="flex flex-wrap gap-8 mb-12 justify-center">
           {recentPosts.map((post, index) => (
             <Card key={index} className="bg-gray-800 border-gray-700 hover:border-gray-600 transition-colors">
               <CardHeader>
