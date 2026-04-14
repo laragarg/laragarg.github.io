@@ -65,6 +65,12 @@ export function getAllBlogPosts(): BlogPostWithReadTime[] {
     // Example: { data: { title: "...", date: "..." }, content: "# Markdown..." }
     const { data, content } = matter(fileContents)
 
+    // #region agent log
+    try {
+      fetch('http://127.0.0.1:7908/ingest/90c0fce3-ce62-487a-a177-b19951fd801d',{method:'POST',headers:{'Content-Type':'application/json','X-Debug-Session-Id':'bc9442'},body:JSON.stringify({sessionId:'bc9442',runId:process.env.NEXT_PHASE||process.env.NODE_ENV||'unknown',hypothesisId:'H2',location:'lib/blog-data.ts:getAllBlogPosts',message:'Loaded markdown file',data:{fileName,contentLength:content.length,hasItalicMarker:content.includes('*“')||content.includes('*"')||content.includes('*_')||content.includes('*'),},timestamp:Date.now()})}).catch(()=>{});
+    } catch {}
+    // #endregion agent log
+
     const post: BlogPost = {
       title: data.title,
       date: data.date,
