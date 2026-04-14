@@ -1,4 +1,3 @@
-import { Badge } from "@/components/ui/badge"
 import { Calendar, Clock } from "lucide-react"
 import ReactMarkdown from "react-markdown"
 import remarkGfm from "remark-gfm"
@@ -7,7 +6,6 @@ interface BlogPostProps {
   post: {
     title: string
     date: string
-    tags: string[]
     readTime: string
     content: string
   }
@@ -36,13 +34,6 @@ export function BlogPost({ post }: BlogPostProps) {
           </div>
         </div>
 
-        <div className="flex flex-wrap gap-2">
-          {post.tags.map((tag, index) => (
-            <Badge key={index} variant="secondary" className="bg-gray-700 text-gray-200">
-              {tag}
-            </Badge>
-          ))}
-        </div>
       </header>
 
       <div className="prose prose-invert prose-lg max-w-none">

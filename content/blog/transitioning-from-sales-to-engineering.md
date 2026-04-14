@@ -1,7 +1,6 @@
 ---
 title: "Transitioning from Sales to Software Engineering"
 date: "2024-01-15"
-tags: ["Career Transition", "Software Engineering", "Personal Growth", "Professional Development"]
 excerpt: "My journey from sales professional to software engineer, including the challenges, learnings, and key strategies that made the transition successful."
 ---
 
@@ -33,13 +32,5 @@ The transition wasn't without challenges. I had to:
 - Adapt to a different work rhythm
 
 But the sales background gave me unique advantages in understanding user needs and business requirements.
-
-## Advice for Others
-
-If you're considering a similar transition:
-1. Start learning to code while still in your current role
-2. Focus on understanding business problems that software solves
-3. Leverage your communication skills—they're rare in tech
-4. Don't underestimate the value of your business experience
 
 The combination of business acumen and technical skills makes you a valuable asset to any development team.

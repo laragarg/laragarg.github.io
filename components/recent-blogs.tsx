@@ -1,6 +1,5 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
-import { Badge } from "@/components/ui/badge"
 import { Calendar, ArrowRight } from "lucide-react"
 import Link from "next/link"
 import { getAllBlogPosts } from "@/lib/blog-data"
@@ -32,13 +31,6 @@ export function RecentBlogs() {
               </CardHeader>
               <CardContent>
                 <p className="text-gray-300 mb-4 line-clamp-3">{post.excerpt}</p>
-                <div className="flex flex-wrap gap-2 mb-4">
-                  {post.tags.map((tag, tagIndex) => (
-                    <Badge key={tagIndex} variant="secondary" className="bg-gray-700 text-gray-300 text-xs">
-                      {tag}
-                    </Badge>
-                  ))}
-                </div>
                 <Link href={`/blog/${post.slug}`}>
                   <Button variant="ghost" className="text-blue-400 hover:text-blue-300 p-0 h-auto">
                     Read Full Blog

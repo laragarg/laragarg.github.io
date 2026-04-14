@@ -92,7 +92,6 @@ The build output goes to the `out/` directory (static HTML files).
    ---
    title: "Your Blog Post Title"
    date: "2024-03-23"
-   tags: ["Tag1", "Tag2", "Tag3"]
    excerpt: "A brief description that appears in blog listings (1-2 sentences)"
    ---
 
@@ -133,7 +132,6 @@ The build output goes to the `out/` directory (static HTML files).
 |-------|----------|-------------|---------|
 | `title` | ✅ Yes | Blog post title | `"Learning Next.js"` |
 | `date` | ✅ Yes | Publication date | `"2024-03-23"` (YYYY-MM-DD) |
-| `tags` | ✅ Yes | Array of tags | `["JavaScript", "React"]` |
 | `excerpt` | ✅ Yes | Short description | `"A beginner's guide..."` |
 
 ### Markdown Tips

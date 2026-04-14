@@ -1,5 +1,4 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
-import { Badge } from "@/components/ui/badge"
 import { Calendar, Clock, ArrowRight } from "lucide-react"
 import Link from "next/link"
 import { getAllBlogPosts } from "@/lib/blog-data"
@@ -46,13 +45,6 @@ export function BlogList() {
             </CardHeader>
             <CardContent>
               <p className="text-gray-300 mb-6 leading-relaxed text-lg">{post.excerpt}</p>
-              <div className="flex flex-wrap gap-2 mb-6">
-                {post.tags.map((tag, tagIndex) => (
-                  <Badge key={tagIndex} variant="secondary" className="bg-gray-700 text-gray-300">
-                    {tag}
-                  </Badge>
-                ))}
-              </div>
               <Link href={`/blog/${post.slug}`}>
                 <div className="inline-flex items-center text-blue-400 hover:text-blue-300 transition-colors font-medium">
                   Read Full Blog

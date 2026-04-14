@@ -5,7 +5,6 @@
  * Each markdown file should have frontmatter (YAML metadata) at the top with:
  * - title: Post title
  * - date: Publication date (YYYY-MM-DD format)
- * - tags: Array of tags
  * - excerpt: Short description for listings
  *
  * The file name becomes the URL slug (e.g., my-post.md → /blog/my-post)
@@ -20,7 +19,6 @@ import { calculateReadingTime } from './reading-time'
 export interface BlogPost {
   title: string
   date: string
-  tags: string[]
   slug: string
   excerpt: string
   content: string
@@ -74,7 +72,6 @@ export function getAllBlogPosts(): BlogPostWithReadTime[] {
     const post: BlogPost = {
       title: data.title,
       date: data.date,
-      tags: data.tags || [],
       slug,
       excerpt: data.excerpt,
       content,
