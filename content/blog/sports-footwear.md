@@ -32,7 +32,7 @@ Although Asia Pacific dominated the footwear market with a market share of 32.44
 
 ### *Nike*
 
-**Moat**
+####Moat
 
     • Big brand name. I see this brand as the Apple of the footwear industry in terms of marketing, innovation, and design thinking.
     • Trust in quality. Built over the years through multiple collaborations with top athletes since inception.
