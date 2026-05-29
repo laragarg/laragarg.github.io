@@ -44,7 +44,7 @@ Although Asia Pacific dominated the footwear market with a market share of 32.44
 
 • R&D at Nike's headquarters in Beaverton, Oregon - source.
 
-• Manufacturing: Nearly 100% of the footwear manufacturing has been outsourced to Asian manufacturers. For fiscal 2025, factories in Vietnam, Indonesia, and China manufactured approximately 51%, 28%, and 17% of total NIKE Brand footwear, respectively.
+• **Nearly 100% of the footwear manufacturing has been outsourced to Asian manufacturers**. For fiscal 2025, factories in Vietnam, Indonesia, and China manufactured approximately 51%, 28%, and 17% of total NIKE Brand footwear, respectively.
 
 #### Revenue
 
@@ -62,15 +62,55 @@ Although Asia Pacific dominated the footwear market with a market share of 32.44
 
 The takeaway from the huge difference between gross margin and operating margin here is that Nike is a Marketing heavy or Brand heavy company so they spend big on demand creation. Other similar brands like Apple and Coca-Cola follow the same route. On the other hand, in commodities industry (Steel, Oil) -  this gap is usually smaller because they don’t need to convince people to buy their products.
 
-#### 10k insights
+#### 10k Insights
 
 • There is no Nike-owned shoe factory anywhere in the world.
 
 • They consider “Nike” and “Swoosh” design trademarks as their most valuable assets. So, essentially Nike is an asset-light company. Most of their Capex goes into digital infrastructure and setting up retail stores.
 
-• Each Nike brand geographic segment operates predominantly in one industry: the design, development, marketing, and selling of athletic footwear, apparel, and equipment.
+• **Each Nike brand geographic segment operates predominantly in one industry: the design, development, marketing, and selling of athletic footwear, apparel, and equipment.**
 
 ### *Adidas*
+
+#### Moat
+
+• The three stripes. It is a performance powerhouse in global football and is one of the lifestyle icons with originals such as Sambas and Gazelles.
+• Adidas has optimized its supply chain to enable a trend turnaround in under 6 months, compared to the traditional 18-month industry cycle.
+• Longest-standing FIFA partner (since 1970), providing the official match ball and sportswear.
+
+#### Supply Chain
+
+• R&D at Adidas’s headquarters in Herzogenaurach, Germany. While the HQ provides the global framework for how our brand comes to life, market organizations ensure local relevance - source.
+
+• Much like Nike, Adidas also outsources nearly 100% of it’s manufacturing to independent third-party manufacturers.
+
+• **In 2025, Vietnam remained the largest sourcing country**, accounting for 27% of adidas’ total volume (2024: 27%), followed by Indonesia at 18% (2024: 19%) and China at 16% (2024: 16%). Overall, **92% of our total 2025 volume was produced in Asia** (2024: 92%).
+
+• After production, products are shipped primarily by sea to their global distribution network of 60 (2024: 60) distribution centers, 21 (2024: 21) of which are company-owned and 39 (2024: 39) of which are managed by logistics partners. Around half of the centers serve all channels, while the other half are tailored to specific channels or services.
+
+#### Revenue
+
+• Total 2025 revenue was reported to be $28.9B.
+
+• In 2025, footwear had the highest share of net sales by product category at 57% - $16.58B, followed by apparel at 35%, and accessories at 7%.
+
+#### Sales Channels
+
+• Wholesale remains a critical pillar (approx. 60–65% of sales), as Adidas recently pivoted back to strengthening ties with retail partners like Foot Locker and JD Sports. Wholesale share stood at 60% in 2025.
+*Foot locker - American retailer of sporting goods, now owned by Dick’s Sporting Goods. Reportedly, FL’s 70% of products are from Nike.*
+• D2C through their retail stores and web app. DTC share stood at 40% in 2025. The total number of stores in 2025 was 2,022, comprising 886 concept stores and 1,136 factory outlets - source.
+
+#### Margins
+
+• Gross profit - $14.4B; gross margin - 51.6%.
+
+• Operating margin improved to 8.3% in 2025, 2.6 percentage points above the prior-year level (2024: 5.6%). Having completed the sale of the remaining Yeezy inventory in 2024, there was no Yeezy contribution to the company’s operating profit in 2025 (2024: around $0.23B).
+
+• As a percentage of sales, marketing and point-of-sale expenses increased 0.4 percentage points to 12.4% (2024: 12.0%) - source.
+
+#### Annual Report Insights
+
+Again, just like Nike, Adidas operates predominantly in one industry segment – the design, distribution, and marketing of athletic and sports lifestyle products - source. And hence, they are also an asset-light company.
 
 ### *Anta Sports*
 
