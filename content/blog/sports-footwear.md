@@ -33,31 +33,35 @@ Although Asia Pacific dominated the footwear market with a market share of 32.44
 ### *Nike*
 
 **Moat**
+
 • Big brand name. I see this brand as the Apple of the footwear industry in terms of marketing, innovation, and design thinking.
 • Trust in quality. Built over the years through multiple collaborations with top athletes since inception.
 • Drops a new collection at an extremely frequent pace - almost daily according to one of the sources.
 
 **Supply Chain**
+
 • R&D at Nike's headquarters in Beaverton, Oregon - source.
 • Manufacturing:
     • Nearly 100% of the footwear manufacturing has been outsourced to Asian manufacturers.
     • For fiscal 2025, factories in Vietnam, Indonesia, and China manufactured approximately 51%, 28%, and 17% of total NIKE Brand footwear, respectively.
 
 **Revenue**
-    - Total revenue of $46.3B in 2025, down from $51.3B in 2024.
-    - Footwear took the major part of the revenue pie - approx $31B, while the rest was from the apparel industry.
-    - Nike’s share of the global sports footwear market fell 3 percentage points in 2025, to 22.9%, according to Euromonitor International data obtained by Reuters, marking the third straight year of declines.
+
+    • Total revenue of $46.3B in 2025, down from $51.3B in 2024.
+    • Footwear took the major part of the revenue pie - approx $31B, while the rest was from the apparel industry.
+    • Nike’s share of the global sports footwear market fell 3 percentage points in 2025, to 22.9%, according to Euromonitor International data obtained by Reuters, marking the third straight year of declines.
 
 **Margins**
+
     1. Gross margin - 42.2%
     2. Operating margin - 7.7%
     The takeaway from the huge difference between gross margin and operating margin here is that Nike is a Marketing heavy or Brand heavy company so they spend big on demand creation. Other similar brands like Apple and Coca-Cola follow the same route. On the other hand, in commodities industry (Steel, Oil) -  this gap is usually smaller because they don’t need to convince people to buy their products.
 
 ### *Adidas*
 
-### Anta Sports
+### *Anta Sports*
 
-### Asics
+### *Asics*
 
-### Puma
+### *Puma*
 
