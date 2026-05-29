@@ -62,7 +62,7 @@ Although Asia Pacific dominated the footwear market with a market share of 32.44
 
 The takeaway from the huge difference between gross margin and operating margin here is that Nike is a Marketing heavy or Brand heavy company so they spend big on demand creation. Other similar brands like Apple and Coca-Cola follow the same route. On the other hand, in commodities industry (Steel, Oil) -  this gap is usually smaller because they don’t need to convince people to buy their products.
 
-#### 10k Insights
+#### [10k](https://s1.q4cdn.com/806093406/files/doc_financials/2025/ar/Nike-Inc-2025_10K.pdf) Insights
 
 • There is no Nike-owned shoe factory anywhere in the world.
 
@@ -108,7 +108,7 @@ The takeaway from the huge difference between gross margin and operating margin 
 
 • As a percentage of sales, marketing and point-of-sale expenses increased 0.4 percentage points to 12.4% (2024: 12.0%) [source](https://www.adidas-group.com/en/media/press-releases/adidas-reports-record-revenues-for-2025-and-expects-strong-sales-and-profit-growth-to-continue-over-the-next-years#:~:text=As%20a%20percentage%20of%20sales%2C%20marketing%20and%20point%2Dof%2Dsale%20expenses%20increased%200.4%20percentage%20points%20to%2012.4%25%20(2024%3A%2012.0%25)).
 
-#### Annual Report Insights
+#### [Annual Report](https://report.adidas-group.com/2025/en/_assets/downloads/annual-report-adidas-ar25.pdf) Insights
 
 Again, just like Nike, Adidas operates predominantly in one industry segment – the design, distribution, and marketing of athletic and sports lifestyle products [source](https://report.adidas-group.com/2025/en/consolidated-financial-statements/notes/additional-information/segmental-information.html#:~:text=adidas%20operates%20predominantly%20in%20one%20industry%20segment%20%E2%80%93%20the%20design%2C%20distribution%2C%20and%20marketing%20of%20athletic%20and%20sports%20lifestyle%20products.). And hence, they are also an asset-light company.
 
@@ -147,7 +147,7 @@ It’s a Chinese sports multi-brand, publicly traded company. It manages Fila Ch
 • FILA is one of the biggest contributors to Anta’s high margins, as FILA has been positioned as a premium brand in China. 
 • When broken down by segment, Anta’s gross profit margin was 53.6%, while FILA’s was 66.4%, and all other brands cumulatively stood at about 71.8%.
 
-#### Annual Report Insights
+#### [Annual Report](https://ir.anta.com/en/financial_report_share.php) Insights
 
 • Anta doesn't sink capital into building physical heavy manufacturing plants. Instead, their CapEx is strictly directed toward high-return areas: direct retail storefront visual upgrades, digital omni-channel infrastructure, and advanced warehouse automation.
 • In FY2025, Anta generated a massive $2.37B in free cash flow, leaving the group with an incredibly solid net cash cushion of $4.67B. This immense liquid war chest gives management the capacity to fund international acquisitions without relying on expensive corporate debt markets.
@@ -184,7 +184,7 @@ ASICS was founded in Kobe, Japan, by Kihachiro Onitsuka. Driven by a post-WWII m
 
 • The main driver of higher gross margins than the likes of Nike and Adidas is that ASICS doesn’t indulge too much in excess inventory clearing out sales.  
 
-#### Annual Report Insights
+#### [Annual Report](https://corp.asics.com/en/investor_relations/library/integrated_report) Insights
 
 • Like ANTA, ASICS manages its internal corporate strategy around product identity categories rather than raw geographic boundaries. It isolates Performance Running, SportStyle, and Onitsuka Tiger into distinct profit centers to ensure specialized product lifecycle tracking.
 
@@ -226,7 +226,7 @@ This company is one of the products of the fallout between the Dassler brothers 
 
 • Operating Margin (EBIT): -4.9% - **Reported a final EBIT loss of $0.4B Million compared to a profit of $0.6B in 2024**. Making it the first company here to be in loss.
 
-#### Annual Report Insights
+#### [Annual Report](https://annual-report.puma.com/2025/en/index.html) Insights
 
 • In July 2025, PUMA underwent a leadership shift, appointing Arthur Hoeld as the new Chief Executive Officer. Under his guidance, the 2025 annual report explicitly designates the period as a corporate "reset year" designed to transition the company into a true Top-3 global sports brand.
 
