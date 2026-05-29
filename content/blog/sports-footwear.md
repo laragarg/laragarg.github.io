@@ -36,8 +36,8 @@ Although Asia Pacific dominated the footwear market with a market share of 32.44
 
     • Big brand name. I see this brand as the Apple of the footwear industry in terms of marketing, innovation, and design thinking.
     • Trust in quality. Built over the years through multiple collaborations with top athletes since inception.
-    • Drops a new collection at an extremely frequent pace - almost daily according to one of the sources.
-
+    • Drops a new collection at an extremely frequent pace - almost daily according to one of the sources.    
+    
 #### Supply Chain
 
     • R&D at Nike's headquarters in Beaverton, Oregon - source.
