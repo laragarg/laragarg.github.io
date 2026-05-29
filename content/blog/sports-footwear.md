@@ -16,17 +16,17 @@ Let’s start with the market size of the global footwear industry, and then we 
 
 ### Combined Apparel & Footwear Market:
 When analyzed as a single massive consumer discretionary sector, the combined industry generates trillions in global revenue, heavily driven by mass-market fashion and the growing athleisure trend.
-Valuation: $2.04T to $2.20T (2025 estimates). Side note - Apple’s market cap alone is $4.065T, and it’s not even at the top of the list. [source](https://www.polarismarketresearch.com/industry-analysis/apparel-and-footwear-market)
+Valuation: $2.04T to $2.20T (2025 estimates). Side note - Apple’s market cap alone is $4.065T, and it’s not even at the top of the list. - [source](https://www.polarismarketresearch.com/industry-analysis/apparel-and-footwear-market)
 
 ### Global Footwear Market:
 While smaller in total revenue compared to apparel, the footwear market is highly lucrative and driven heavily by the athletic and casual segments.
-Valuation: $476B to $495B (2025 estimates). [source](https://www.fortunebusinessinsights.com/footwear-market-112088).
+Valuation: $476B to $495B (2025 estimates). - [source](https://www.fortunebusinessinsights.com/footwear-market-112088)
 
 ### Global Sports Footwear Market:
-This market was valued at $140.08B in 2024, and poised to grow from $146.95B in 2025 to $215.46B by 2033, growing at a CAGR of 4.9% in the forecast period (2026–2033). [source](https://www.skyquestt.com/report/sports-footwear-market)
+This market was valued at $140.08B in 2024, and poised to grow from $146.95B in 2025 to $215.46B by 2033, growing at a CAGR of 4.9% in the forecast period (2026–2033). - [source](https://www.skyquestt.com/report/sports-footwear-market)
 
 ### North America:
-Although Asia Pacific dominated the footwear market with a market share of 32.44% in 2025,  the market in North America reached $134.96B in 2025, representing 27.24% of total market revenue, and is projected to reach $144.59B in 2026. The U.S. is the most prominent market in North America and is projected to acquire $92.67B in 2026 [source](https://www.fortunebusinessinsights.com/footwear-market-112088).
+Although Asia Pacific dominated the footwear market with a market share of 32.44% in 2025,  the market in North America reached $134.96B in 2025, representing 27.24% of total market revenue, and is projected to reach $144.59B in 2026. The U.S. is the most prominent market in North America and is projected to acquire $92.67B in 2026. - [source](https://www.fortunebusinessinsights.com/footwear-market-112088)
 
 ## Major Global Players
 
@@ -42,7 +42,7 @@ Although Asia Pacific dominated the footwear market with a market share of 32.44
 
 #### Supply Chain
 
-• R&D at Nike's headquarters in Beaverton, Oregon [source](https://about.nike.com/en/magazine/nike-spaces-sports-design-innovation-performance).
+• R&D at Nike's headquarters in Beaverton, Oregon. - [source](https://about.nike.com/en/magazine/nike-spaces-sports-design-innovation-performance)
 
 • **Nearly 100% of the footwear manufacturing has been outsourced to Asian manufacturers**. For fiscal 2025, factories in Vietnam, Indonesia, and China manufactured approximately 51%, 28%, and 17% of total NIKE Brand footwear, respectively.
 
@@ -80,7 +80,7 @@ The takeaway from the huge difference between gross margin and operating margin 
 
 #### Supply Chain
 
-• R&D at Adidas’s headquarters in Herzogenaurach, Germany. While the HQ provides the global framework for how our brand comes to life, market organizations ensure local relevance [source](https://report.adidas-group.com/2025/en/group-management-report-our-company/description-of-business-model/markets-and-sales-channels.html#:~:text=While%20our%20headquarters%20organization%20in%20Herzogenaurach%2C%20Germany%2C%20provides%20the%20global%20framework%20for%20how%20our%20brand%20comes%20to%20life%2C%20our%20market%20organizations%20ensure%20local%20relevance.).
+• R&D at Adidas’s headquarters in Herzogenaurach, Germany. While the HQ provides the global framework for how our brand comes to life, market organizations ensure local relevance. - [source](https://report.adidas-group.com/2025/en/group-management-report-our-company/description-of-business-model/markets-and-sales-channels.html#:~:text=While%20our%20headquarters%20organization%20in%20Herzogenaurach%2C%20Germany%2C%20provides%20the%20global%20framework%20for%20how%20our%20brand%20comes%20to%20life%2C%20our%20market%20organizations%20ensure%20local%20relevance.)
 
 • Much like Nike, Adidas also outsources nearly 100% of it’s manufacturing to independent third-party manufacturers.
 
@@ -98,7 +98,7 @@ The takeaway from the huge difference between gross margin and operating margin 
 
 • Wholesale remains a critical pillar (approx. 60–65% of sales), as Adidas recently pivoted back to strengthening ties with retail partners like Foot Locker and JD Sports. Wholesale share stood at 60% in 2025.
 *Foot locker - American retailer of sporting goods, now owned by Dick’s Sporting Goods. Reportedly, FL’s 70% of products are from Nike.*
-• D2C through their retail stores and web app. DTC share stood at 40% in 2025. The total number of stores in 2025 was 2,022, comprising 886 concept stores and 1,136 factory outlets [source](https://report.adidas-group.com/2025/en/group-management-report-our-company/description-of-business-model/markets-and-sales-channels.html#:~:text=In%202025%2C%20the%20total%20number%20of%20stores%20was%202%2C022%20(2024%3A%201%2C933)%2C%20comprising%20886%C2%A0concept%20stores%20(2024%3A%20838)%20and%201%2C136%20factory%20outlets%20(2024%3A%201%2C095)).
+• D2C through their retail stores and web app. DTC share stood at 40% in 2025. The total number of stores in 2025 was 2,022, comprising 886 concept stores and 1,136 factory outlets. - [source](https://report.adidas-group.com/2025/en/group-management-report-our-company/description-of-business-model/markets-and-sales-channels.html#:~:text=In%202025%2C%20the%20total%20number%20of%20stores%20was%202%2C022%20(2024%3A%201%2C933)%2C%20comprising%20886%C2%A0concept%20stores%20(2024%3A%20838)%20and%201%2C136%20factory%20outlets%20(2024%3A%201%2C095))
 
 #### Margins
 
@@ -106,11 +106,11 @@ The takeaway from the huge difference between gross margin and operating margin 
 
 • Operating margin improved to 8.3% in 2025, 2.6 percentage points above the prior-year level (2024: 5.6%). Having completed the sale of the remaining Yeezy inventory in 2024, there was no Yeezy contribution to the company’s operating profit in 2025 (2024: around $0.23B).
 
-• As a percentage of sales, marketing and point-of-sale expenses increased 0.4 percentage points to 12.4% (2024: 12.0%) [source](https://www.adidas-group.com/en/media/press-releases/adidas-reports-record-revenues-for-2025-and-expects-strong-sales-and-profit-growth-to-continue-over-the-next-years#:~:text=As%20a%20percentage%20of%20sales%2C%20marketing%20and%20point%2Dof%2Dsale%20expenses%20increased%200.4%20percentage%20points%20to%2012.4%25%20(2024%3A%2012.0%25)).
+• As a percentage of sales, marketing and point-of-sale expenses increased 0.4 percentage points to 12.4% (2024: 12.0%). - [source](https://www.adidas-group.com/en/media/press-releases/adidas-reports-record-revenues-for-2025-and-expects-strong-sales-and-profit-growth-to-continue-over-the-next-years#:~:text=As%20a%20percentage%20of%20sales%2C%20marketing%20and%20point%2Dof%2Dsale%20expenses%20increased%200.4%20percentage%20points%20to%2012.4%25%20(2024%3A%2012.0%25)).
 
 #### [Annual Report](https://report.adidas-group.com/2025/en/_assets/downloads/annual-report-adidas-ar25.pdf) Insights
 
-Again, just like Nike, Adidas operates predominantly in one industry segment – the design, distribution, and marketing of athletic and sports lifestyle products [source](https://report.adidas-group.com/2025/en/consolidated-financial-statements/notes/additional-information/segmental-information.html#:~:text=adidas%20operates%20predominantly%20in%20one%20industry%20segment%20%E2%80%93%20the%20design%2C%20distribution%2C%20and%20marketing%20of%20athletic%20and%20sports%20lifestyle%20products.). And hence, they are also an asset-light company.
+Again, just like Nike, Adidas operates predominantly in one industry segment – the design, distribution, and marketing of athletic and sports lifestyle products. [source](https://report.adidas-group.com/2025/en/consolidated-financial-statements/notes/additional-information/segmental-information.html#:~:text=adidas%20operates%20predominantly%20in%20one%20industry%20segment%20%E2%80%93%20the%20design%2C%20distribution%2C%20and%20marketing%20of%20athletic%20and%20sports%20lifestyle%20products.). And hence, they are also an asset-light company.
 
 ### *Anta Sports*
 It’s a Chinese sports multi-brand, publicly traded company. It manages Fila China, Wilson via Amer Sports, among others. It started in 1991, in Jinjiang - also called the Chinese shoe capital. Fun fact - **Anta owns a 29.06% stake in Puma and is their largest stakeholder**. Although this ownership is different from Fila and Wilson. With them, Anta owns full proprietary rights to operate these brands in the Greater China territory. They completely manage the storefronts, design the local apparel lines, and fully consolidate 100% of these revenues into ANTA Group’s top-line financial income statements. Whereas with Puma, it’s a non-controlling strategic minority investment. PUMA remains a completely independent, publicly listed German corporation.
@@ -129,7 +129,7 @@ It’s a Chinese sports multi-brand, publicly traded company. It manages Fila Ch
 
 #### Revenue
 
-• Total revenue for the year ending on 31st Dec 2025 was $11.8B, up by 13.3% from the previous year. Footwear contributed 39.3% to the total revenue, which is about $4.6B, up by about 7.9% yoy [source](https://manager.wisdomir.com/files/394/2026/0409/20260409170152_39658497_en.pdf).
+• Total revenue for the year ending on 31st Dec 2025 was $11.8B, up by 13.3% from the previous year. Footwear contributed 39.3% to the total revenue, which is about $4.6B, up by about 7.9% yoy. - [source](https://manager.wisdomir.com/files/394/2026/0409/20260409170152_39658497_en.pdf).
 
 • Anta currently holds 23% of China’s market share, followed by Nike at 22% and Li-Ning and Adidas at 9%.
 
@@ -256,9 +256,9 @@ All these brands share one common factor in their origins that helped them take 
 
 ## Definitions
 
-• *Market size* is the total volume or value of products and services that an entire industry can sell to a specific group of customers within a defined timeframe, usually annually. Within the overall market size, there is the addressable market, a specific segment that a company can capture with its offering [source](https://valonaintelligence.com/resources/blog/4-steps-to-market-size-like-the-pros#:~:text=Market%20size%20is,with%20its%20offering.)
+• *Market size* is the total volume or value of products and services that an entire industry can sell to a specific group of customers within a defined timeframe, usually annually. Within the overall market size, there is the addressable market, a specific segment that a company can capture with its offering. - [source](https://valonaintelligence.com/resources/blog/4-steps-to-market-size-like-the-pros#:~:text=Market%20size%20is,with%20its%20offering.)
 
-• *Consumer Discretionary Sector*: This sector includes businesses that sell non-essential goods and services, meaning consumer demand is heavily tied to economic cycles and personal income. [source](https://lexchart.com/global-industry-classification-standard-gics-consumer-discretionary/#:~:text=The%20Consumer%20Discretionary%20sector%20%2825,equipment%2C%20and%20textiles%20%26%20apparel.). 
+• *Consumer Discretionary Sector*: This sector includes businesses that sell non-essential goods and services, meaning consumer demand is heavily tied to economic cycles and personal income. - [source](https://lexchart.com/global-industry-classification-standard-gics-consumer-discretionary/#:~:text=The%20Consumer%20Discretionary%20sector%20%2825,equipment%2C%20and%20textiles%20%26%20apparel.). 
 
 • *Capex*: Capital Expenditure - CapEx is the money a company spends to buy, maintain, or upgrade physical, long-term assets (like land, buildings, machinery, or tech infrastructure). These are classified as Property, Plant, and Equipment (PP&E).
 

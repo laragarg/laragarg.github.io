@@ -112,6 +112,10 @@
   @apply text-white font-semibold;
 }
 
+.prose a {
+  @apply text-blue-400 underline underline-offset-2 decoration-blue-400/80 hover:text-blue-300 hover:decoration-blue-300;
+}
+
 html {
   scroll-behavior: smooth;
 }

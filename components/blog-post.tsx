@@ -63,6 +63,12 @@ export function BlogPost({ post }: BlogPostProps) {
             ol: (props) => <ol className="list-decimal pl-5 mb-4 text-gray-300 space-y-2" {...props} />,
             li: (props) => <li className="leading-relaxed" {...props} />,
             em: (props) => <em className="italic" {...props} />,
+            a: (props) => (
+              <a
+                className="text-blue-400 underline underline-offset-2 decoration-blue-400/80 hover:text-blue-300 hover:decoration-blue-300"
+                {...props}
+              />
+            ),
           }}
         >
           {post.content}
