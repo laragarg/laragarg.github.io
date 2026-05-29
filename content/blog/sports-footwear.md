@@ -232,4 +232,53 @@ This company is one of the products of the fallout between the Dassler brothers 
 
 • Due to the inventory writedowns and sales contraction, PUMA’s cash generation came under severe pressure, leading to a negative Free Cash Flow, forcing the company to secure $0.7B in new financing to cushion its corporate liquidity.
 
-All these brands share one common factor in their origins that helped them take off: signing a big-name player or betting on an underdog. With Adidas, Puma, and Nike, the list is quite long. But for the Dassler brothers, it all began in the 1926 Olympics when they signed Jesse Owens - the first sponsorship for an African American. Owens won 4 gold medals, and as a result, the Dassler brothers were selling 200k pairs of shoes annually before WW2. With Nike, it’s probably the signing of Michael B. Jordan - to know more, I’d recommend the autobiography of Phil Knight called “Shoe Dog” or watch Ben Affleck directorial “Air”. For Anta, it was the signing of Kong Linghui, a Chinese table tennis star. They started a national ad campaign with him wearing Anta - capitalizing on the nationalistic wave.
+All these brands share one common factor in their origins that helped them take off: signing a big-name player or betting on an underdog. With Adidas, Puma, and Nike, the list is quite long. But for the Dassler brothers it all began in the 1926 Olympics when they signed Jesse Owens - the first sponsorship for an African American. Owens won 4 gold medals, and as a result, the Dassler brothers were selling 200k pairs of shoes annually before WW2. With Nike, it’s probably the signing of Michael B. Jordan - to know more, I’d recommend the autobiography of Phil Knight called “Shoe Dog” or watch Ben Affleck directorial “Air”. For Anta, it was the signing of Kong Linghui, a Chinese table tennis star. They started a national ad campaign with him wearing Anta - capitalizing on the nationalistic wave.
+
+## Tailwinds
+
+• Growing awareness around personal health and fitness.
+• Increase in discretionary income, not globally but in various demographics across the world.
+• Sports footwear is no longer looked at as something that can be worn for specific purposes. It's becoming a part of everyday life. 
+• Ease of access to global brands with the rise of e-commerce, whether it’s via wholesale or DTC.
+• Continuous advancements in shoe technology and designs in the ultra-premium segments help increase the average order value, and there is a specific set of consumers who are willing to pay that price.
+
+## Headwinds
+
+• Global tariff wars. There is no silver bullet to this problem. Companies are looking to diversify their manufacturing, but it’s easier said than done. Regionalization and reshoring are some of the options; however, setting up factories from scratch and scaling them to the level of existing foreign factories is a multi-year effort.
+• Increased nationalization across the globe. Troublesome for global brands, but not so much for local brands. For example, Anta capitalized on a wave of nationalism and surpassed Nike to become the country's leading sports footwear brand.
+• Counterfeit products. Footwear is consistently ranked by customs agencies globally as the single most counterfeited consumer goods category in the world. 
+
+## Definitions
+
+• Market size is the total volume or value of products and services that an entire industry can sell to a specific group of customers within a defined timeframe, usually annually.
+
+• Within the overall market size, there is the addressable market, a specific segment that a company can capture with its offering - source
+
+• Consumer Discretionary Sector - This sector includes businesses that sell non-essential goods and services, meaning consumer demand is heavily tied to economic cycles and personal income. - source. 
+
+• Capex: Capital Expenditure - CapEx is the money a company spends to buy, maintain, or upgrade physical, long-term assets (like land, buildings, machinery, or tech infrastructure). These are classified as Property, Plant, and Equipment (PP&E).
+
+• COGS: Direct costs required to physically manufacture and bring a product to the point of sale - this includes raw material procurement costs, labor costs, and shipping costs. If an expense is not directly tied to the creation or procurement of a physical shoe or shirt, it cannot be included in COGS.
+
+• Gross Profit: It is the absolute value. Gross Profit = Total Revenue - Cost of Goods Sold (COGS)
+
+• Operating Profit (also called operating income): Profit after considering/subtracting operational and marketing expenses. COGS doesn’t cover these expenses. This is equivalent to EBIT - Earnings before interest and taxes.
+
+• Net Profit: AKA the bottom line. 
+Net Profit = EBIT - Interest - Taxes
+
+• Gross Margin: It is the gross profit percentage. 
+Gross Margin = (Gross Profit / Total Revenue) * 100
+
+• Operating Margin: Operating profit percentage.
+
+• DTC: Direct To Consumer. When a company sells their product directly to the final customer, bypassing middlemen like the whole salers. The brand can directly establish connections and response relationships with the end consumer market in terms of product flow, information flow (including design and reordering information), and capital flow.
+
+• Wholesale model: It’s a 'brand-distributor-agent-retail-store’ distribution model. Here, brands find it difficult to read dynamic market information directly, leading to challenges in maintaining a long-term dynamic balance between production and sales, resulting in periodic inventory accumulation issues, which in turn affect the sustainability of business growth and the stability of the profit structure.
+
+• Tariff: A tax or duty imposed by a government on imported goods (mostly borne by the customer) and sometimes exports, designed to protect domestic industries, generate revenue, or regulate trade.
+
+• Regionalization: To basically diversify the factories across the world strategically, so that there is no single point of failure. 
+
+• Reshoring: To move the manufacturing hub from the overseas country back to the country where it originally was initially.
+
