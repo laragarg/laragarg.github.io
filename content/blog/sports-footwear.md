@@ -113,8 +113,123 @@ The takeaway from the huge difference between gross margin and operating margin 
 Again, just like Nike, Adidas operates predominantly in one industry segment – the design, distribution, and marketing of athletic and sports lifestyle products - source. And hence, they are also an asset-light company.
 
 ### *Anta Sports*
+It’s a Chinese sports multi-brand, publicly traded company. It manages Fila China, Wilson via Amer Sports, among others. It started in 1991, in Jinjiang - also called the Chinese shoe capital. Fun fact - **Anta owns a 29.06% stake in Puma and is their largest stakeholder**. Although this ownership is different from Fila and Wilson. With them, Anta owns full proprietary rights to operate these brands in the Greater China territory. They completely manage the storefronts, design the local apparel lines, and fully consolidate 100% of these revenues into ANTA Group’s top-line financial income statements. Whereas with Puma, it’s a non-controlling strategic minority investment. PUMA remains a completely independent, publicly listed German corporation.
+
+#### Moat
+
+• Unlike Nike and Adidas, being a multi-brand company helps Anta to cater to a wider audience - Salomon for winter, FILA for premium fashion-sport, Descente for premium performance, and Kolon Sport for outdoor.
+
+#### Supply Chain
+
+• The company used about 2.7% of 2024’s revenue for it’s R&D that happens in China. 
+
+• Anta handles approximately 25% of its footwear production internally (in-house). The remaining 75% is outsourced to a network of over 350 primary OEM partners across Asia.
+
+• To de-risk its logistics, Anta utilizes a highly structured sourcing architecture. It outsources production across a vast network of independent manufacturers, keeping any single trade zone's output below 70% by intentionally shifting 18% of its total output to factory ecosystems in Southeast Asia.
+
+#### Revenue
+
+• Total revenue for the year ending on 31st Dec 2025 was $11.8B, up by 13.3% from the previous year. Footwear contributed 39.3% to the total revenue, which is about $4.6B, up by about 7.9% yoy- source.
+
+• Anta currently holds 23% of China’s market share, followed by Nike at 22% and Li-Ning and Adidas at 9%.
+
+#### Sales Channels
+
+• Wholesalers - including a mix of footwear stores, sporting goods stores, athletic specialty stores, department stores, skate, tennis, and golf shops.
+• D2C (direct-to-consumer) through their retail stores and the web app
+
+#### Margins
+
+• Gross margin in 2025 stood at 62% while operating margin was 23%. 
+
+• Reasons for Anta’s constant high margins - over 60% for the past 5 years:
+• Over 90% of Anta’s revenue is generated through direct-operated storefronts and integrated e-commerce channels.
+• FILA is one of the biggest contributors to Anta’s high margins, as FILA has been positioned as a premium brand in China. 
+• When broken down by segment, Anta’s gross profit margin was 53.6%, while FILA’s was 66.4%, and all other brands cumulatively stood at about 71.8%.
+
+#### Annual Report Insights
+
+• Anta doesn't sink capital into building physical heavy manufacturing plants. Instead, their CapEx is strictly directed toward high-return areas: direct retail storefront visual upgrades, digital omni-channel infrastructure, and advanced warehouse automation.
+• In FY2025, Anta generated a massive $2.37B in free cash flow, leaving the group with an incredibly solid net cash cushion of $4.67B. This immense liquid war chest gives management the capacity to fund international acquisitions without relying on expensive corporate debt markets.
+
 
 ### *Asics*
+ASICS was founded in Kobe, Japan, by Kihachiro Onitsuka. Driven by a post-WWII mission to rebuild the morale and health of Japanese youth through sport, Onitsuka anchored the firm's philosophy on the Latin maxim Anima Sana In Corpore Sano ("A Sound Mind in a Sound Body"), which later served as the acronym for ASICS. **Fun fact: Phil Knight (founder of Nike) initially started out as a distributor to import and sell Onitsuka Tiger footwear in the USA.** 
+
+#### Moat
+
+• ASICS runs a highly profitable dual engine. While mainline ASICS dominates technical track, trail, and court sports (tennis, volleyball, and padel), its SportStyle and Onitsuka Tiger sub-brands command massive luxury fashion pricing power, capitalizing on vintage aesthetics and inbound tourist spending in Japan.
+
+#### Supply Chain
+
+• R&D is centralized at ASICS Institute of Sport Science (ISS) in Kobe, Japan.
+
+• Unlike Nike and Adidas, which balance a wider matrix of manufacturers, ASICS clusters its supply chain tightly around Southeast Asian production nodes - Vietnam hosts 37 primary factories and accounts for ~40% of total footwear output and Indonesia acts as the secondary anchor, providing ~30% of manufacturing volume.
+
+#### Revenue
+
+• In 2025, the revenue reached a record high of $5.09B, representing a massive 19.5% increase year-over-year.
+
+• Footwear is a massive driver for ASICS, commanding between 80% and 85% of total corporate sales.
+
+#### Sales Channels
+
+• Wholesale remains the primary volume driver, accounting for roughly 65% to 75% of overall shipments. However, to preserve premium pricing, ASICS systematically reduced its non-strategic wholesale accounts by 15% to focus exclusively on premium run specialty partners and top tier retail networks like Foot Locker and JD Sports.
+
+• ASICS is restructuring its distribution mix to target a permanent 40% DTC ratio. This expansion is driven by the global OneASICS loyalty program membership (surpassing millions of users) and flagship storefronts optimized to move premium inventory at full price.
+
+#### Margins
+
+• Gross margin stood at 56.8%, while operating margin was 17.6%.
+
+• The main driver of higher gross margins than the likes of Nike and Adidas is that ASICS doesn’t indulge too much in excess inventory clearing out sales.  
+
+#### Annual Report Insights
+
+• Like ANTA, ASICS manages its internal corporate strategy around product identity categories rather than raw geographic boundaries. It isolates Performance Running, SportStyle, and Onitsuka Tiger into distinct profit centers to ensure specialized product lifecycle tracking.
+
+• A striking insight from ASICS' financial structure is the massive profitability of its lifestyle portfolio. The combined SportStyle and Onitsuka Tiger brands represented 34.3% of total company sales but generated a staggering 65.1% of ASICS' total operating profit.
+
+• Operating on an outsourced model means ASICS restricts its CapEx away from manufacturing plants. Its primary investments flow directly into supply-chain visibility software, digital retail integration, and automated warehouse infrastructure to support direct-to-consumer fulfillment.
+
 
 ### *Puma*
+This company is one of the products of the fallout between the Dassler brothers of Germany. Adolf Dassler built Adidas, while Rudolf Dassler built Puma. 
 
+#### Moat
+
+• PUMA anchors its performance credibility on a foundational roster of top-tier global football clubs, e.g., Manchester City, AC Milan, Borussia Dortmund alongside elite track federations.
+
+#### Supply Chain
+
+• Global creative direction, product development, and core engineering are centralized at PUMA’s world headquarters in Herzogenaurach, Germany.
+
+• Like Nike and Adidas, PUMA operates an entirely asset-light model, relying on a sprawling network of over 550 external manufacturing partners located primarily across Asia (95% of the manufacturing happens here), Europe, and Latin America.
+
+• Vietnam serves as the dominant manufacturing anchor, driving 29% of total group volume. China contributes about 29% of the total manufacturing.
+
+#### Revenue
+
+• Reported at $7.92B, down 13.1% on a reported basis (or 8.1% on a currency-adjusted basis) due to intentional inventory cleansing and adverse foreign exchange headwinds.
+
+• Footwear generated approx $4.46B, down 13.1% year-over-year, but remaining the group’s foundational product engine at 56.4% of total sales.
+
+• Marketing expenses: Because of declining top-line sales, **PUMA's overall selling and marketing expense ratio rose to an immense 39.3% of total revenue**. Even though marketing and sales costs were technically trimmed by 0.5% in absolute dollar terms, the compression of total corporate sales pushed this percentage to historical highs, highlighting the high fixed cost burden of multi-year athlete sponsorships and retail footprint maintenance.
+
+#### Sales Channels
+
+• Wholesale remains PUMA's largest distribution pipeline. However, the brand entered a severe "distribution clean-up" phase to actively combat elevated channel inventory levels and also to recover brand exclusivity. 
+
+#### Margins
+
+• 45.0% - down 260 basis points from 47.6% in FY2024 due to high wholesale inventory write-downs and promotional clearouts.
+
+• Operating Margin (EBIT): -4.9% - **Reported a final EBIT loss of $0.4B Million compared to a profit of $0.6B in 2024**. Making it the first company here to be in loss.
+
+#### Annual Report Insights
+
+• In July 2025, PUMA underwent a leadership shift, appointing Arthur Hoeld as the new Chief Executive Officer. Under his guidance, the 2025 annual report explicitly designates the period as a corporate "reset year" designed to transition the company into a true Top-3 global sports brand.
+
+• Due to the inventory writedowns and sales contraction, PUMA’s cash generation came under severe pressure, leading to a negative Free Cash Flow, forcing the company to secure $0.7B in new financing to cushion its corporate liquidity.
+
+All these brands share one common factor in their origins that helped them take off: signing a big-name player or betting on an underdog. With Adidas, Puma, and Nike, the list is quite long. But for the Dassler brothers, it all began in the 1926 Olympics when they signed Jesse Owens - the first sponsorship for an African American. Owens won 4 gold medals, and as a result, the Dassler brothers were selling 200k pairs of shoes annually before WW2. With Nike, it’s probably the signing of Michael B. Jordan - to know more, I’d recommend the autobiography of Phil Knight called “Shoe Dog” or watch Ben Affleck directorial “Air”. For Anta, it was the signing of Kong Linghui, a Chinese table tennis star. They started a national ad campaign with him wearing Anta - capitalizing on the nationalistic wave.
